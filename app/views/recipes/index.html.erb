@@ -1,0 +1,6 @@
+<%= link_to 'All Drinks', recipes_path %>
+<br />
+<%= @recipes.each do |recipe| %>
+  <%= recipe.name%>
+<% end %>
+
