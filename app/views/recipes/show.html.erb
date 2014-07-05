@@ -1,0 +1,16 @@
+<table>
+  <thead>
+    <th><%= @recipe.name %></th>
+  </thead>
+  <tbody>
+    <tr>
+      <td><%= @recipe.directions %></td>
+      <td>
+        <ul>
+          <% @recipe.ingredients.each do |ingredient| %></td>
+            <li><%= ingredient %></li>
+          <% end %>
+        </ul>
+    </tr>
+  </tbody>
+</table>
