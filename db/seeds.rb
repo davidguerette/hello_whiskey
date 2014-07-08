@@ -1,7 +1,9 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+CSV.foreach("../holy_grail/db/data/hello_whiskey_seeder.csv", headers: true, header_converters: :symbol) do |row|
+  row = row.to_hash
+
+  recipe = Recipe.find_or_create_by({name: row[:recipe_name], directions: row[:recipe_directions]})
+  category = Category.find_or_create_by({name: row[:category_name]})
+  component = Component.find_or_create_by({name: row[:component_name]})
+  Ingredient.find_or_create_by({quantity: row[:ingredient_quantity], unit: row[:ingredient_unit],
+    recipe_id: recipe.id, category_id: category.id, component_id: component.id})
+end
