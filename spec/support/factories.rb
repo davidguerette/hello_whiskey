@@ -20,10 +20,15 @@ FactoryGirl.define do
 
     component
     recipe
+    category
   end
 
   factory :component do
     name 'bourbon'
   end
+
+
+  factory :category do
+    name 'whiskey'
+  end
 end
-# ['2 oz rye or bourbon whiskey', '0.5 oz sweet vermouth', '1 dash Angustora bitters', '1 maraschino cherry']

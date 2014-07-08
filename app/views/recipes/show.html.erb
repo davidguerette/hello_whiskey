@@ -6,7 +6,8 @@
     <tr>
       <td><%= @recipe.directions %></td>
       <td><% @recipe.ingredients.each do |ingredient| %>
-          <%= ingredient.component.name %>
+          Ingredient: <%= ingredient.component.name %><br />
+          Category: <%= ingredient.category.name %>
         <% end %>
       </td>
     </tr>
