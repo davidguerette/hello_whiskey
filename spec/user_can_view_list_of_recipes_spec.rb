@@ -43,6 +43,7 @@ So that I can find a drink I’d like to make
 
     recipe.ingredients.each do |ingredient|
       expect(page).to have_content(ingredient.component.name)
+      expect(page).to have_content(ingredient.category.name)
     end
 
 # recipe.components.first.name
