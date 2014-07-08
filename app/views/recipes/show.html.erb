@@ -5,12 +5,10 @@
   <tbody>
     <tr>
       <td><%= @recipe.directions %></td>
-      <td>
-        <ul>
-          <% @recipe.ingredients.each do |ingredient| %></td>
-            <li><%= ingredient %></li>
-          <% end %>
-        </ul>
+      <td><% @recipe.ingredients.each do |ingredient| %>
+          <%= ingredient.component.name %>
+        <% end %>
+      </td>
     </tr>
   </tbody>
 </table>
