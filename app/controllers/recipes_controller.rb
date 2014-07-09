@@ -8,4 +8,8 @@ class RecipesController < ApplicationController
     @recipe = Recipe.find(params[:id])
     # @ingredients = @recipe.ingredients
   end
+
+  def search
+    @categories = Category.all
+  end
 end

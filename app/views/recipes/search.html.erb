@@ -1,0 +1,10 @@
+<h1>Hello Whiskey!</h1>
+
+<% @categories.each do |category| %>
+  <div>
+    Category: <%= category.name %> ------
+    <% category.components.each do |component| %>
+      <%= component.name %>
+    <% end %>
+  </div>
+<% end %>

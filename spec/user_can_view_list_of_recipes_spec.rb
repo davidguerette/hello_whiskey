@@ -1,16 +1,15 @@
 require 'rails_helper'
 
 feature 'user can view a list of cocktail recipes', %Q{
+  As a lover of fine whiskey cocktails
+  I want to browse through cocktail recipes
+  So that I can find a drink I’d like to make
 
-As a lover of fine whiskey cocktails
-I want to browse through cocktail recipes
-So that I can find a drink I’d like to make
+  *******Acceptance Criteria*****************************
 
-*******Acceptance Criteria*****************************
-
--I can visit an index page that lists 10 recipes at a time
--I can visit a unique page for each recipe
--Each recipe page show the recipe’s components, directions, substitutions
+  -I can visit an index page that lists 10 recipes at a time
+  -I can visit a unique page for each recipe
+  -Each recipe page show the recipe’s components, directions, substitutions
 } do
 
   scenario 'user can successfully view a list of all cocktail recipes' do
@@ -29,7 +28,6 @@ So that I can find a drink I’d like to make
 
     visit root_path
     click_on 'All Drinks'
-binding.pry
     click_link recipe.name
 
     expect(page).to have_content(recipe.name)
