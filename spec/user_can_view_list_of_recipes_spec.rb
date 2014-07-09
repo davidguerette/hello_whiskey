@@ -18,43 +18,25 @@ So that I can find a drink I’d like to make
 
     visit root_path
     click_link 'All Drinks'
-# binding.pry
+
     recipes.each do |recipe|
       expect(page).to have_content(recipe.name)
     end
-
-    # recipes = FactoryGirl.create_list(:recipe_with_ingredients, 3)
-
-    # visit root_path
-    # click_link 'All Drinks'
-
-    # expect(page).to have_content('All Drinks')
-
-    # recipes.each do |recipe|
-    #   expect(page).to have_content(recipe.name)
-    # end
   end
 
   scenario 'user can view all details for an individual cocktail' do
+    recipe = Recipe.first
 
+    visit root_path
+    click_on 'All Drinks'
+binding.pry
+    click_link recipe.name
 
-
-
-
-
-    # recipe = FactoryGirl.create(:recipe_with_ingredients)
-
-    # visit root_path
-    # click_on 'All Drinks'
-    # save_and_open_page
-    # click_link recipe.name
-
-    # expect(page).to have_content(recipe.name)
-    # expect(page).to have_content(recipe.directions)
-
-    # recipe.ingredients.each do |ingredient|
-    #   expect(page).to have_content(ingredient.component.name)
-    #   expect(page).to have_content(ingredient.category.name)
-    # end
+    expect(page).to have_content(recipe.name)
+    expect(page).to have_content(recipe.directions)
+    recipe.ingredients.each do |ingredient|
+      expect(page).to have_content(ingredient.component.name)
+      expect(page).to have_content(ingredient.component.category.name)
+    end
   end
 end
