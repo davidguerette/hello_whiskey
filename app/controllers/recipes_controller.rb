@@ -1,7 +1,12 @@
 class RecipesController < ApplicationController
 
   def index
-    @recipes = Recipe.all
+    if params[:search]
+      @recipe_search = RecipeSearch.new(params[:search])
+      @recipes = @recipe_search.search
+    else
+      @recipes = Recipe.all
+    end
   end
 
   def show
@@ -9,7 +14,13 @@ class RecipesController < ApplicationController
     # @ingredients = @recipe.ingredients
   end
 
-  def search
+  def home
     @categories = Category.all
   end
+
+  def search
+    #return a drink based on input ingredients
+    redirect_to root_path
+  end
+
 end
