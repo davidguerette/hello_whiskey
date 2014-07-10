@@ -24,4 +24,15 @@ feature 'user can search for recipes from ingredients', %Q{
         expect(page).to have_content(category_component.name)
       end
     end
+
+    scenario 'user selects multiple ingredients and the correct recipes are returned' do
+      category = Category.first
+
+      visit root_path
+      fill_in
+
+    end
+
+    scenario 'user does not select any ingredients'
+
 end
