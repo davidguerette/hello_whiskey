@@ -16,7 +16,7 @@ feature 'user can view a list of cocktail recipes', %Q{
     recipes = Recipe.limit(3)
 
     visit root_path
-    click_link 'All Drinks'
+    click_link 'Browse'
 
     recipes.each do |recipe|
       expect(page).to have_content(recipe.name)
@@ -27,14 +27,13 @@ feature 'user can view a list of cocktail recipes', %Q{
     recipe = Recipe.first
 
     visit root_path
-    click_on 'All Drinks'
+    click_link 'Browse'
     click_link recipe.name
 
     expect(page).to have_content(recipe.name)
     expect(page).to have_content(recipe.directions)
     recipe.ingredients.each do |ingredient|
       expect(page).to have_content(ingredient.component.name)
-      expect(page).to have_content(ingredient.component.category.name)
     end
   end
 end

@@ -19,6 +19,7 @@ feature 'user can search for recipes from ingredients', %Q{
       category_components = category.components
 
       visit root_path
+      click_link 'What Can I Make?'
       expect(page).to have_content(category.name)
       category_components.each do |category_component|
         expect(page).to have_content(category_component.name)
@@ -26,10 +27,10 @@ feature 'user can search for recipes from ingredients', %Q{
     end
 
     scenario 'user selects multiple ingredients and the correct recipes are returned' do
-      category = Category.first
+      # category = Category.first
 
-      visit root_path
-      fill_in
+      # visit root_path
+      # fill_in
 
     end
 
