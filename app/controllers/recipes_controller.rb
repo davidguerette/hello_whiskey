@@ -19,6 +19,7 @@ class RecipesController < ApplicationController
     if params[:search]
       recipe_search = RecipeSearch.new(params[:search][:component_ids])
       @recipes = recipe_search.search
+      binding.pry
       redirect_to recipes
     end
   end
