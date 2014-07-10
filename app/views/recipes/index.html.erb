@@ -1,5 +1,13 @@
-<%= link_to 'All Drinks', recipes_path %>
-<br />
-<% @recipes.each do |recipe| %>
-  <%= link_to recipe.name, recipe_path(recipe) %>
+<% if @recipes %>
+  <% @recipes.each do |recipe| %>
+    <%= recipe %>
+  <% end %>
 <% end %>
+
+<hr />
+
+<ul>
+  <% @recipes.each do |recipe| %>
+  <li><%= link_to recipe.name, recipe_path(recipe) %></li>
+  <% end %>
+</ul>

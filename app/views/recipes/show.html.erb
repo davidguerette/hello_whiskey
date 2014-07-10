@@ -5,9 +5,10 @@
   <tbody>
     <tr>
       <td><%= @recipe.directions %></td>
-      <td><% @recipe.ingredients.each do |ingredient| %>
-          Ingredient: <%= ingredient.component.name %>
-          (<%= ingredient.component.category.name %>)<br /><br />
+      <td>Ingredients<br /><br />
+        <% @recipe.ingredients.each do |ingredient| %>
+          <%= ingredient.component.name %>
+          (<%= ingredient.component.category.name %>)<br />
         <% end %>
       </td>
     </tr>

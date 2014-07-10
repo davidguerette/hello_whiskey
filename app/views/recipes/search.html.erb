@@ -1,0 +1,10 @@
+<h2>Search</h2>
+
+<%= simple_form_for :search, url: recipes_path, method: :get do |f| %>
+  <% Category.all.each do |category| %>
+    <h3>Category: <%= category.name %></h3>
+    <%= f.input :component_ids, collection: category.components, as: :check_boxes %>
+  <% end %>
+
+  <%= f.button :submit %>
+<% end %>
