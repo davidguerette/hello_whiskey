@@ -6,6 +6,11 @@ class RecipesController < ApplicationController
       components = Component.find(component_ids)
       recipes_search = RecipeSearch.new(components)
       @recipes = recipes_search.search
+
+      if @recipes.empty?
+        flash[:notice] = "Sorry, but fine drinks begin with fine ingredients. Please enter more ingredients and try again!"
+        render :search
+      end
     else
       @recipes = Recipe.all
     end

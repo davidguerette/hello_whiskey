@@ -54,7 +54,7 @@ feature 'user can search for recipes from ingredients', %Q{
 
     end
 
-    scenario 'user does not select any ingredients' do
+    scenario 'user receives error if no recipes can be made with submitted ingredients' do
       recipe = FactoryGirl.create(:recipe_with_ingredients)
       other_recipe = FactoryGirl.create(:recipe_with_ingredients)
       components = recipe.components
@@ -64,8 +64,7 @@ feature 'user can search for recipes from ingredients', %Q{
       click_link 'What Can I Make?'
 
       click_button("That's the spirit!")
-      expect(page).to have_content "We can't make a drink without any ingredients! Please select some ingredients and try again."
-
+      expect(page).to have_content "Sorry, but fine drinks begin with fine ingredients. Please enter more ingredients and try again!"
     end
 
 end
