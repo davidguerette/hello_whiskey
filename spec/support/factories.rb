@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :recipe do
-    name 'Manhattan'
+    sequence(:name) { |n| "Manhattan #{n}" }
     directions 'Stir with ice and strain into chilled cocktail glass. Garnish with cherry.'
 
     factory :recipe_with_ingredients do
@@ -20,15 +20,14 @@ FactoryGirl.define do
 
     component
     recipe
-    category
   end
 
   factory :component do
-    name 'bourbon'
+    category
+    sequence(:name) { |n| "component #{n}" }
   end
 
-
   factory :category do
-    name 'whiskey'
+    sequence(:name) { |n| "whiskey #{n}"}
   end
 end
