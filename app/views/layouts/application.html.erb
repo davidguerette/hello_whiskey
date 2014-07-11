@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>HolyGrail</title>
+  <title>Hello Whiskey!</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -13,11 +13,14 @@
       <li><%= link_to 'Browse', recipes_path %></li>
       <li><%= link_to 'What Can I Make?', recipes_search_path %></li>
     </ul>
+
     <h1>Hello Whiskey!</h1>
+    <%= yield :home %>
     </header>
-    <div class="row"></div>
+    <div class="row">
       <div class="span9"><%= yield %></div>
       <div class="span3">As a lover of fine whiskey cocktails...</div>
+    </div>
 </div>
 </body>
 </html>

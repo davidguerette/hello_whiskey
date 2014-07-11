@@ -4,6 +4,8 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'pages#home'
+
+  get 'home' => 'pages#home'
   get 'recipes/search' => 'recipes#search'
 
   resources :recipes, only: [:index, :show, :search]
