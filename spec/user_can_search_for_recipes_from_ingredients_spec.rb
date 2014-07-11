@@ -15,22 +15,34 @@ feature 'user can search for recipes from ingredients', %Q{
 } do
 
     scenario 'user sees all ingredient component name checkboxes sorted by category' do
-      category = Category.first
-      category_components = category.components
+      recipe = FactoryGirl.create(:recipe_with_ingredients)
+      other_recipe = FactoryGirl.create(:recipe_with_ingredients)
+      components = recipe.components
+      categories = Category.all
 
       visit root_path
       click_link 'What Can I Make?'
-      expect(page).to have_content(category.name)
-      category_components.each do |category_component|
-        expect(page).to have_content(category_component.name)
+
+      categories.each do |category|
+        within ".#{category.name.gsub(" ", "-")}" do
+          category.components.each do |component|
+            expect(page).to have_content(component.name)
+          end
+        end
       end
+
     end
 
     scenario 'user selects multiple ingredients and the correct recipes are returned' do
-      # category = Category.first
 
       # visit root_path
-      # fill_in
+      # click_link 'What Can I Make?'
+
+      # components = recipe.components
+      # components.each do |component|
+      #   check component.name
+      # end
+      # save_and_open_page
 
     end
 

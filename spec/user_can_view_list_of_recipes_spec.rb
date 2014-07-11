@@ -13,18 +13,18 @@ feature 'user can view a list of cocktail recipes', %Q{
 } do
 
   scenario 'user can successfully view a list of all cocktail recipes' do
-    recipes = Recipe.limit(3)
+    recipe = FactoryGirl.create(:recipe_with_ingredients)
+    other_recipe = FactoryGirl.create(:recipe_with_ingredients)
 
     visit root_path
     click_link 'Browse'
 
-    recipes.each do |recipe|
-      expect(page).to have_content(recipe.name)
-    end
+    expect(page).to have_content(recipe.name)
+    expect(page).to have_content(other_recipe.name)
   end
 
   scenario 'user can view all details for an individual cocktail' do
-    recipe = Recipe.first
+    recipe = FactoryGirl.create(:recipe_with_ingredients)
 
     visit root_path
     click_link 'Browse'

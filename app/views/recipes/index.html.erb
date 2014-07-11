@@ -1,13 +1,8 @@
-<% if @recipes %>
-  <% @recipes.each do |recipe| %>
-    <%= recipe %>
-  <% end %>
-<% end %>
-
 <hr />
 
-<ul>
-  <% @recipes.each do |recipe| %>
-  <li><%= link_to recipe.name, recipe_path(recipe) %></li>
-  <% end %>
-</ul>
+
+  <ul>
+    <% @recipes.each do |recipe| %>
+    <li><%= link_to recipe.name, recipe_path(recipe) %></li>
+    <% end %>
+  </ul>
