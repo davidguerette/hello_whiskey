@@ -32,15 +32,14 @@ gem 'twitter-bootstrap-rails'
 
 gem 'font-awesome-sass'
 
+gem 'devise'
+
 group :test, :development do
   gem 'capybara'
   gem 'pry-rails'
   gem 'rspec-rails'
   gem 'factory_girl_rails'
   gem 'launchy'
-
-  gem 'quiet-assets'
-
 end
 
 # Use ActiveModel has_secure_password

@@ -13,6 +13,17 @@ feature 'user can sign up for account', %Q{
 } do
 
   scenario 'specifies valid required information' do
+    visit root_path
+    click_link 'Sign Up'
+    fill_in 'First Name', with: 'Bob'
+    fill_in 'Last Name', with: 'Smith'
+    fill_in 'Email', with: 'user@example.com'
+    fill_in 'Password', with: 'password123'
+    fill_in 'Password Confirmation', with: 'password123'
+    click_button 'Sign Up'
+
+    expect(page).to have_content('Login successful.')
+    expect(page).to have_content('Sign Out')
 
   end
 
