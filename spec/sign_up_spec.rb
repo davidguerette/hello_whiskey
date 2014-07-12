@@ -13,8 +13,7 @@ feature 'user can sign up for account', %Q{
 } do
 
   scenario 'specifies valid required information' do
-    visit root_path
-    click_link 'Sign Up'
+
     fill_in 'First Name', with: 'Bob'
     fill_in 'Last Name', with: 'Smith'
     fill_in 'Email', with: 'user@example.com'
@@ -22,12 +21,28 @@ feature 'user can sign up for account', %Q{
     fill_in 'Password Confirmation', with: 'password123'
     click_button 'Sign Up'
 
-    expect(page).to have_content('Login successful.')
+    expect(page).to have_content('Thanks for signing up! Now, go forth and find your favorite drinks.')
     expect(page).to have_content('Sign Out')
 
   end
 
-  scenario 'does not enter required information'
+  scenario 'does not enter required information' do
+    visit root_path
+    click_link 'Sign Up'
 
-  scenario 'password confirmation does not match password'
+    expect(page).to have_content("can't be blank")
+    expect(page).to_not have_content("Sign Out")
+  end
+
+  scenario 'password confirmation does not match password' do
+    visit root_path
+    click_link 'Sign Up'
+    fill_in 'user_password', with: 'password'
+    fill_in 'Password Confirmation', with: 'password123'
+    click_button 'Sign Up'
+
+    expect(page).to have_content("doesn't match")
+    expect(page).to_not have_content("Sign Out")
+  end
+
 end
