@@ -18,7 +18,7 @@ feature 'user can sign up for account', %Q{
     fill_in 'First Name', with: 'Bob'
     fill_in 'Last Name', with: 'Smith'
     fill_in 'Email', with: 'user@example.com'
-    fill_in 'Password', with: 'password123'
+    fill_in 'user_password', with: 'password123'
     fill_in 'Password Confirmation', with: 'password123'
     click_button 'Sign Up'
 
