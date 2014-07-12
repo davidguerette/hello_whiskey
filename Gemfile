@@ -38,6 +38,9 @@ group :test, :development do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
   gem 'launchy'
+
+  gem 'quiet-assets'
+
 end
 
 # Use ActiveModel has_secure_password
