@@ -18,7 +18,6 @@ class RecipeSearch
 
       recipe_components.uniq!
 
-
       if recipe_uses_all_components?(recipe_components)
         results << recipe.id
       end
