@@ -7,20 +7,28 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div class="container-fluid">
-  <header>
-    <ul class="nav nav-pills nav-justified">
-      <li>log in</li>
+
+<div class="container">
+  <div class="page-header">
+    <ul class="nav nav-pills">
+      <li class="active pull-right"><a href="#">Login</a></li>
     </ul>
+  </div>
+</div>
 
-    <h1>Hello Whiskey!</h1>
+  <div class="jumbotron">
+    <div class=" center">
+      <div class="col-md-6"><h1>Hello Whiskey!</h1></div>
+      <p class="lead">Are you thirsty? Choose your whiskey adventure:</p>
 
-    </header>
-    <div class="row">
-      <%= notice %>
-      <div class="span9"><%= yield %></div>
-      <div class="span3">As a lover of fine whiskey cocktails...</div>
+      <%= link_to 'Browse', recipes_path, :class => "btn btn-lg" %>
+      <%= link_to 'What Can I Make?', recipes_search_path, class: "btn btn-lg" %>
     </div>
+  </div>
+
+  <div class="row">
+    <div class="span6"><%= yield %></div>
+  </div>
 </div>
 </body>
 </html>
