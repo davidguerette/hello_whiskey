@@ -31,11 +31,11 @@ FactoryGirl.define do
     sequence(:name) { |n| "whiskey #{n}"}
   end
 
- # factory :user do
- #    first_name 'Bob'
- #    last_name 'Smith'
- #    password 'password123'
- #    password_confirmation 'password123'
- #    email 'test@example.com'
- #  end
+ factory :user do
+    first_name 'Bob'
+    last_name 'Smith'
+    password 'password123'
+    password_confirmation 'password123'
+    email 'test@example.com'
+  end
 end
