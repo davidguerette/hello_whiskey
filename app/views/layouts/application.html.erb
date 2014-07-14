@@ -7,7 +7,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div class="container-fluid">
+<div class="container">
   <header>
     <ul class="nav nav-pills nav-justified">
       <li><%= link_to 'Browse', recipes_path %></li>
@@ -19,8 +19,8 @@
     </header>
     <div class="row">
       <%= notice %>
-      <div class="span9"><%= yield %></div>
-      <div class="span3">As a lover of fine whiskey cocktails...</div>
+      <%= alert %>
+      <div =""><%= yield %></div>
     </div>
 </div>
 </body>

@@ -32,6 +32,8 @@ gem 'twitter-bootstrap-rails'
 
 gem 'font-awesome-sass'
 
+gem 'devise'
+
 group :test, :development do
   gem 'capybara'
   gem 'pry-rails'
