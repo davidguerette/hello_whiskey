@@ -11,7 +11,7 @@ RSpec.describe User, :type => :model do
   it { should_not have_valid(:email).when(nil, '', 'userr@com', '12asd') }
 
   it 'has a matching password confirmation' do
-    user = FactoryGirl.create(:user, password_confirmation: 'anotherpassword')
+    user = FactoryGirl.create(:user)
 
     user = User.new
     expect(user).to_not be_valid
