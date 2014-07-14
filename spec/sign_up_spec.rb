@@ -15,6 +15,8 @@ feature 'user can sign up for account', %Q{
   scenario 'specifies valid required information' do
     user = FactoryGirl.build(:user)
 
+    visit root_path
+    click_link 'Sign Up'
     fill_in 'First Name', with: user.first_name
     fill_in 'Last Name', with: user.last_name
     fill_in 'Email', with: user.email
@@ -30,6 +32,7 @@ feature 'user can sign up for account', %Q{
   scenario 'does not enter required information' do
     visit root_path
     click_link 'Sign Up'
+    click_button 'Sign Up'
 
     expect(page).to have_content("can't be blank")
     expect(page).to_not have_content("Sign Out")
