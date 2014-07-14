@@ -13,7 +13,7 @@ feature 'user can sign up for account', %Q{
 } do
 
   scenario 'specifies valid required information' do
-    user = FactoryGirl.create(:user)
+    user = FactoryGirl.build(:user)
 
     fill_in 'First Name', with: user.first_name
     fill_in 'Last Name', with: user.last_name
