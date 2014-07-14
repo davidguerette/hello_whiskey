@@ -30,7 +30,6 @@ feature 'user can search for recipes from ingredients', %Q{
           end
         end
       end
-
     end
 
     scenario 'user selects multiple ingredients and the correct recipes are returned' do
