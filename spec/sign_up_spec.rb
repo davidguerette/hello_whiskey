@@ -13,12 +13,13 @@ feature 'user can sign up for account', %Q{
 } do
 
   scenario 'specifies valid required information' do
+    user = FactoryGirl.create(:user)
 
-    fill_in 'First Name', with: 'Bob'
-    fill_in 'Last Name', with: 'Smith'
-    fill_in 'Email', with: 'user@example.com'
-    fill_in 'user_password', with: 'password123'
-    fill_in 'Password Confirmation', with: 'password123'
+    fill_in 'First Name', with: user.first_name
+    fill_in 'Last Name', with: user.last_name
+    fill_in 'Email', with: user.email
+    fill_in 'user_password', with: user.password
+    fill_in 'Password Confirmation', with: user.password
     click_button 'Sign Up'
 
     expect(page).to have_content('Thanks for signing up! Now, go forth and find your favorite drinks.')

@@ -19,7 +19,7 @@ So I can keep track of my favorite drinks
     FactoryGirl.create(:user)
 
     visit root_path
-    click_link 'Sign In'
+    click_link 'Sign in'
     fill_in 'Email', with: user.email
     fill_in 'Password', with: user.password
     fill_in 'Password Confirmation', with: user.password_confirmation
