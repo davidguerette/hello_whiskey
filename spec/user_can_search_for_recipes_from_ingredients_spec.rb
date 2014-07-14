@@ -32,7 +32,7 @@ feature 'user can search for recipes from ingredients', %Q{
       end
     end
 
-    scenario 'user selects multiple ingredients and the correct recipes are returned' do
+    scenario 'user selects ingredients from a recipe without optional or substitute ingredients and the correct recipes are returned' do
       recipe = FactoryGirl.create(:recipe_with_ingredients)
       other_recipe = FactoryGirl.create(:recipe_with_ingredients)
       components = recipe.components
@@ -50,8 +50,10 @@ feature 'user can search for recipes from ingredients', %Q{
 
       click_button("That's the spirit!")
       expect(page).to have_content(recipe.name)
-
     end
+
+  scenario 'user selects ingredients from a recipe with substitute ingredients and the correct recipes are returned'
+  scenario 'user does not select an optional ingredient and the recipe is returned'
 
     scenario 'user receives error if no recipes can be made with submitted ingredients' do
       recipe = FactoryGirl.create(:recipe_with_ingredients)
