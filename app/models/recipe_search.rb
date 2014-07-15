@@ -19,7 +19,7 @@ class RecipeSearch
     results
   end
 
-  # private
+  protected
 
   def has_all_components_for?(recipe)
     recipe.components.all? do |recipe_component|
@@ -53,3 +53,5 @@ class RecipeSearch
     end
   end
 end
+
+where it returns false, change it for an optional ingredient
