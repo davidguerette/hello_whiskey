@@ -12,5 +12,3 @@ CSV.foreach("../holy_grail/db/data/hello_whiskey_test_seeder.csv", headers: true
     Substitution.find_or_create_by(ingredient_id: ingredient.id, substitute_id: substitute_ingredient.id)
   end
 end
-
-binding.pry
