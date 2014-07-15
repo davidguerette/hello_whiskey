@@ -53,5 +53,3 @@ class RecipeSearch
     end
   end
 end
-
-where it returns false, change it for an optional ingredient

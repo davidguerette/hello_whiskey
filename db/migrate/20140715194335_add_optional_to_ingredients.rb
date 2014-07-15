@@ -1,6 +1,6 @@
 class AddOptionalToIngredients < ActiveRecord::Migration
   def up
-    add_column :ingredients, :optional, :boolean, default: true
+    add_column :ingredients, :optional, :boolean, default: false
   end
 
   def down

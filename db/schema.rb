@@ -28,9 +28,9 @@ ActiveRecord::Schema.define(version: 20140715194335) do
   create_table "ingredients", force: true do |t|
     t.float   "quantity"
     t.string  "unit"
-    t.integer "component_id",                null: false
-    t.integer "recipe_id",                   null: false
-    t.boolean "optional",     default: true
+    t.integer "component_id",                 null: false
+    t.integer "recipe_id",                    null: false
+    t.boolean "optional",     default: false
   end
 
   create_table "recipes", force: true do |t|
