@@ -14,7 +14,6 @@ class RecipeSearch
       elsif self.has_substitutions_for?(recipe)
         results << recipe
       end
-      binding.pry
     end
     results
   end
@@ -22,8 +21,6 @@ class RecipeSearch
   protected
 
   def has_all_components_for?(recipe)
-    # required_ingredients = recipe.ingredients.where('optional = false')
-
     recipe.ingredients.each do |ingredient|
       if !ingredient.optional
         return false if !components.include?(ingredient.component)
