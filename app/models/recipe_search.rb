@@ -14,24 +14,26 @@ class RecipeSearch
       elsif self.has_substitutions_for?(recipe)
         results << recipe
       end
+      binding.pry
     end
-
     results
   end
 
   protected
 
   def has_all_components_for?(recipe)
-    recipe.components.all? do |recipe_component|
-      components.include?(recipe_component)
+    # required_ingredients = recipe.ingredients.where('optional = false')
+
+    recipe.ingredients.each do |ingredient|
+      if !ingredient.optional
+        return false if !components.include?(ingredient.component)
+      end
     end
   end
 
   def has_substitutions_for?(recipe)
-    results = []
-
     recipe.ingredients.each do |ingredient|
-      if !self.has_ingredient_substitutes?(ingredient)
+      if !ingredient.optional && !self.has_ingredient_substitutes?(ingredient)
         return false
       end
     end
