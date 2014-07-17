@@ -1,0 +1,5 @@
+<ul>
+  <% @favorites.each do |favorite|%>
+    <li><%= link_to favorite.recipe.name, recipe_path(favorite.recipe)%> </li>
+  <% end %>
+</ul>

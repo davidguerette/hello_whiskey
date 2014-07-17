@@ -34,6 +34,8 @@ gem 'font-awesome-sass'
 
 gem 'devise'
 
+gem 'rails_12factor'
+
 group :test, :development do
   gem 'capybara'
   gem 'pry-rails'

@@ -10,7 +10,10 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   def has_favorited?(recipe)
-    Favorite.where(user: self, recipe: recipe)
+    if Favorite.where(user_id: self.id, recipe_id: recipe.id) == []
+      false
+    else
+      true
+    end
   end
-
 end
