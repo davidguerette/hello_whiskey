@@ -1,4 +1,4 @@
-CSV.foreach(Rails.root.join("/app/assets/data/hello_whiskey_test_seeder.csv"), headers: true, header_converters: :symbol, skip_blanks: true) do |row|
+CSV.foreach(Rails.root.join("db/data/hello_whiskey_test_seeder.csv"), headers: true, header_converters: :symbol, skip_blanks: true) do |row|
   row = row.to_hash
 
   recipe = Recipe.find_or_create_by({name: row[:recipe_name], directions: row[:recipe_directions]})
