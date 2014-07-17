@@ -23,14 +23,19 @@
 </div>
 
   <div class="jumbotron">
-    <div class=" center">
+    <div class="center">
       <div class="col-md-6"><h1>Hello Whiskey!</h1></div>
+      <div class="svg_image"><%= image_tag("elegant3.svg") %></div>
       <p class="lead">Are you thirsty? Choose your whiskey adventure:</p>
-
       <%= link_to 'Browse', recipes_path, :class => "btn btn-lg" %>
       <%= link_to 'What Can I Make?', recipes_search_path, class: "btn btn-lg" %>
     </div>
   </div>
+
+<div class="jumbotron">
+
+  </div>
+
 
   <div class="row">
     <div class="span6"><%= yield %></div>

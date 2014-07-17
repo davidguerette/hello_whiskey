@@ -1,0 +1,17 @@
+recipe_name,ingredient_quantity,ingredient_unit,component_name,optional,substitution,category_name,recipe_directions
+Ward 8,2,oz,rye whiskey,,,whiskey,"Shake with ice and strain into red wine glass filled with ice. Garnish with orange, lemon, and cherry. Serve with straws."
+Ward 8,0.75,oz,fresh lemon juice,,,citrus,"Shake with ice and strain into red wine glass filled with ice. Garnish with orange, lemon, and cherry. Serve with straws."
+Ward 8,0.5,oz,simple syrup,,,sugars and syrups,"Shake with ice and strain into red wine glass filled with ice. Garnish with orange, lemon, and cherry. Serve with straws."
+Ward 8,0.25,oz,grenadine,,,sugars and syrups,"Shake with ice and strain into red wine glass filled with ice. Garnish with orange, lemon, and cherry. Serve with straws."
+Ward 8,0.5,,orange wheel,,,citrus,"Shake with ice and strain into red wine glass filled with ice. Garnish with orange, lemon, and cherry. Serve with straws."
+Ward 8,0.5,,lemon wheel,,,citrus,"Shake with ice and strain into red wine glass filled with ice. Garnish with orange, lemon, and cherry. Serve with straws."
+Ward 8,1,,maraschino cherry,true,,garnish,"Shake with ice and strain into red wine glass filled with ice. Garnish with orange, lemon, and cherry. Serve with straws."
+Manhattan,2,oz,rye whiskey,,bourbon whiskey,whiskey,Stir with ice and strain into chilled cocktail glass. Garnish with cherry.
+Manhattan,0.5,oz,sweet vermouth,,,aromatics,Stir with ice and strain into chilled cocktail glass. Garnish with cherry.
+Manhattan,1,dash,Angustora bitters,,,bitters,Stir with ice and strain into chilled cocktail glass. Garnish with cherry.
+Manhattan,1,,maraschino cherry,true,,garnish,Stir with ice and strain into chilled cocktail glass. Garnish with cherry.
+Old-Fashioned Cocktail,2,oz,rye whiskey,,bourbon whiskey,whiskey,"Pour whiskey, syrup and bitters into cracked ice filled old-fashioned glass and stir. Garnish with orange and cherry."
+Old-Fashioned Cocktail,0.25,oz,simple syrup,,,sugars and syrups,"Pour whiskey, syrup and bitters into cracked ice filled old-fashioned glass and stir. Garnish with orange and cherry."
+Old-Fashioned Cocktail,2,dashes,orange or Angustora bitters,,,bitters,"Pour whiskey, syrup and bitters into cracked ice filled old-fashioned glass and stir. Garnish with orange and cherry."
+Old-Fashioned Cocktail,1,,orange wheel,,,citrus,"Pour whiskey, syrup and bitters into cracked ice filled old-fashioned glass and stir. Garnish with orange and cherry."
+Old-Fashioned Cocktail,1,,Italian preserved cherry,true,,garnish,"Pour whiskey, syrup and bitters into cracked ice filled old-fashioned glass and stir. Garnish with orange and cherry."

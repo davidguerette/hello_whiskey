@@ -8,7 +8,7 @@ class RecipesController < ApplicationController
       @recipes = recipes_search.search
 
       if @recipes.empty?
-        flash[:notice] = "Sorry, but fine drinks begin with fine ingredients. Please enter more ingredients and try again!"
+        flash.now[:notice] = "Sorry, but fine drinks begin with fine ingredients. Please enter more ingredients and try again!"
         render :search
       end
     else
@@ -19,13 +19,4 @@ class RecipesController < ApplicationController
   def show
     @recipe = Recipe.find(params[:id])
   end
-
-  def search
-    # if params[:search]
-    #   recipe_search = RecipeSearch.new(params[:search][:component_ids])
-    #   @recipes = recipe_search.search
-    #   redirect_to recipes
-    # end
-  end
-
 end

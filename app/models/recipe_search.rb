@@ -1,5 +1,4 @@
 class RecipeSearch
-
   attr_accessor :components
 
   def initialize(components)
@@ -7,29 +6,49 @@ class RecipeSearch
   end
 
   def search
-    results = [] #array of recipes that can be created with submitted ingredients
+    results = []
 
     Recipe.all.each do |recipe|
-      recipe_components = []
-
-      recipe.ingredients.each do |ingredient|
-        recipe_components << ingredient.component
+      if self.has_all_components_for?(recipe)
+        results << recipe
+      elsif self.has_substitutions_for?(recipe)
+        results << recipe
       end
+    end
+    results
+  end
 
-      recipe_components.uniq!
+  protected
 
-      if recipe_uses_all_components?(recipe_components)
-        results << recipe.id
+  def has_all_components_for?(recipe)
+    recipe.ingredients.each do |ingredient|
+      if !ingredient.optional
+        return false if !components.include?(ingredient.component)
+      end
+    end
+  end
+
+  def has_substitutions_for?(recipe)
+    recipe.ingredients.each do |ingredient|
+      if !ingredient.optional && !self.has_ingredient_substitutes?(ingredient)
+        return false
+      end
+    end
+  end
+
+  def has_ingredient_substitutes?(ingredient)
+    substitute_components = []
+
+    ingredient.substitutes.each do |substitute_component|
+      if components.include?(substitute_component)
+        substitute_components << substitute_component
       end
     end
 
-    Recipe.find(results)
-  end
-
-  private
-  def recipe_uses_all_components?(recipe_components)
-    recipe_components.all? do |component|
-      components.include?(component)
+    unless substitute_components.empty?
+      true
+    else
+      false
     end
   end
 end

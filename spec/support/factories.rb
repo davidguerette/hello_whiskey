@@ -1,7 +1,8 @@
 FactoryGirl.define do
   factory :recipe do
-    sequence(:name) { |n| "Manhattan #{n}" }
-    directions 'Stir with ice and strain into chilled cocktail glass. Garnish with cherry.'
+    sequence(:name) { |n| "Brighton Punch #{n}" }
+    directions 'Shake first five ingredients with ice and pour with ice into Collins glass.
+      Fill with soda water and stir gently. Garnish with orange and lemon and serve with a straw.'
 
     factory :recipe_with_ingredients do
       ignore do
