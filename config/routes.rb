@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  devise_for :users
+  devise_for :users do
+    resources :favorites, only: [:create, :index]
+  end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -8,7 +10,9 @@ Rails.application.routes.draw do
 
   get 'recipes/search' => 'recipes#search'
 
-  resources :recipes, only: [:index, :show, :search]
+  resources :recipes, only: [:index, :show, :search] do
+    resources :favorites, only: [:index, :create]
+  end
   resources :pages, only: [:home]
 
   # Example of regular route:
