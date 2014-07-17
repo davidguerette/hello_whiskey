@@ -11,6 +11,13 @@
           (<%= ingredient.component.category.name %>)<br />
         <% end %>
       </td>
+      <% if user_signed_in? %>
+        <% if !current_user.has_favorited?(@recipe) %>
+          <td>
+            <%= link_to 'Add to favorites', recipe_favorites_path(@recipe), method: :post  %>
+          </td>
+        <% end %>
+      <% end %>
     </tr>
   </tbody>
 </table>
