@@ -8,4 +8,9 @@ class User < ActiveRecord::Base
 
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
+
+  def has_favorited?(recipe)
+    Favorite.where(user: self, recipe: recipe)
+  end
+
 end

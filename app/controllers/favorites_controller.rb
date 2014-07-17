@@ -10,7 +10,7 @@ class FavoritesController < ApplicationController
     if favorite.save
       redirect_to recipe_path(@recipe)
     else
-      redirect_to back(@recipe)
+      redirect_to recipe_path(@recipe)
     end
   end
 end
