@@ -3,7 +3,7 @@
 <% if @recipes.empty? %>
 <!--   <p>Sorry, but fine drinks begin with fine ingredients. Please enter more ingredients and try again!</p> -->
 <% end %>
-<ul>
+<ul class="list-unstyled">
   <% @recipes.each do |recipe| %>
   <li><%= link_to recipe.name, recipe_path(recipe) %></li>
   <% end %>
