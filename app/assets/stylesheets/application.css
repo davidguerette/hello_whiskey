@@ -19,6 +19,9 @@
   text-align: center;
 }
 
+.check_boxes.required.control-label{
+    display: none;
+}
 
 .full {
   background: url(whiskeyclose.jpg) no-repeat center center fixed;
