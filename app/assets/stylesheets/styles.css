@@ -1,0 +1,40 @@
+.center {
+  text-align: center;
+}
+
+.check_boxes.required.control-label{
+    display: none;
+}
+
+.btn-lg {
+  font-size: 40px;
+  padding: 28px 55px 28px;
+  line-height: 26px;
+  text-transform: none;
+  font-weight: normal;
+  background-color: #CBCBCB;
+}
+
+body {
+  margin-top: 5px;
+  color: #000000;
+}
+
+.ingredient-row {
+  background-color: #f8f8f8;
+  padding: 0px 0px 20px 40px;
+  margin-bottom: 18px;
+  border-radius: 5px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+.jumbotron.h1 {
+  font-size: 75;
+}

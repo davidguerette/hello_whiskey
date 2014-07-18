@@ -7,33 +7,57 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div class="container">
-  <div class="page-header">
-    <ul class="nav nav-pills nav-justified">
-      <li><%= link_to 'Browse', recipes_path %></li>
-      <li><%= link_to 'What Can I Make?', recipes_search_path %></li>
-    </ul>
 
-    <ul class="nav nav-pills">
-      <% if user_signed_in? %>
-        <li><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %></li>
-      <% else %>
-        <li><%= link_to 'Sign In', new_user_session_path %></li>
-        <li><%= link_to 'Sign Up', new_user_registration_path %></li>
-      <% end %>
-    </ul>
-
-</div>
 
 <div class="container">
-  <header>
-    <h1>Hello Whiskey!</h1>
-  </header>
-    <div class="row">
-      <%= notice %>
-      <%= alert %>
-      <div =""><%= yield %></div>
+  <div class="container">
+    <div class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-collapse collapse">
+        <div class="navbar-header">
+          <%= link_to 'Hello Whiskey!', root_path, class: "navbar-brand" %>
+        </div>
+          <ul class="nav navbar-nav">
+            <li><%= link_to 'What Can I Make?', recipes_search_path %></li>
+            <li><%= link_to 'Browse', recipes_path %></li>
+            <% if user_signed_in? %>
+              <li><%= link_to 'Your Favorites', user_favorites_path(current_user) %></li>
+            <% end %>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <% if user_signed_in? %>
+              <li><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %></li>
+            <% else %>
+              <li><%= link_to 'Sign In', new_user_session_path %></li>
+              <li><%= link_to 'Sign Up', new_user_registration_path %></li>
+            <% end %>
+          </ul>
+        </div>
+      </div>
     </div>
+  </div>
+
+<div class="container-fluid">
+  <% if current_page?(root_path) %>
+  <div class="jumbotron">
+      <div class="center">
+        <div class="row"><h1 class="text-center">Hello Whiskey!</h1>
+
+        </div>
+        <div id="elegant_image"><%= image_tag("elegant3.png") %></div>
+        <h3>Step 1: Gather your ingredients</h3>
+
+        <%= link_to "Step 2: Let's fix a drink", recipes_search_path, class: "btn btn-lg" %>
+      </div>
+    </div>
+  <% end %>
+
+  <div class="row">
+    <%= notice %>
+    <%= alert %>
+    <div class="row"><%= yield %></div>
+  </div>
+</div>
 </div>
 </body>
 </html>
