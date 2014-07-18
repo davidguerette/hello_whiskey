@@ -8,60 +8,54 @@
 </head>
 <body>
 
-  <div class="container">
-    <div class="navbar navbar-default" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">Hello Whiskey!</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><%= link_to 'What Can I Make?', recipes_search_path %></li>
-            <li><%= link_to 'Browse', recipes_path %></li>
-            <% if user_signed_in? %>
-              <li><%= link_to 'Your Favorites', user_favorites_path(current_user) %></li>
-            <% end %>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <% if user_signed_in? %>
-              <li><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %></li>
-            <% else %>
-              <li><%= link_to 'Sign In', new_user_session_path %></li>
-              <li><%= link_to 'Sign Up', new_user_registration_path %></li>
-            <% end %>
-            <li></li>
-            <li></li>
-          </ul>
-        </div><!--/.nav-collapse -->
+<div class="container">
+  <div class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Hello Whiskey!</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><%= link_to 'What Can I Make?', recipes_search_path %></li>
+          <li><%= link_to 'Browse', recipes_path %></li>
+          <% if user_signed_in? %>
+            <li><%= link_to 'Your Favorites', user_favorites_path(current_user) %></li>
+          <% end %>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <% if user_signed_in? %>
+            <li><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %></li>
+          <% else %>
+            <li><%= link_to 'Sign In', new_user_session_path %></li>
+            <li><%= link_to 'Sign Up', new_user_registration_path %></li>
+          <% end %>
+        </ul>
       </div>
     </div>
   </div>
+</div>
 
 <div class="container">
-
-<% if current_page?(root_path) %>
-
-  <div class="jumbotron">
-    <div class="center">
-      <div class="col-md-6"><h1>Hello Whiskey!</h1></div>
-      <div class="svg_image"><%= image_tag("elegant3.svg") %></div>
-      <p class="lead">Are you thirsty? Choose your whiskey adventure:</p>
-      <%= link_to 'Browse', recipes_path, :class => "btn btn-lg" %>
-      <%= link_to 'What Can I Make?', recipes_search_path, class: "btn btn-lg" %>
+  <% if current_page?(root_path) %>
+    <div class="jumbotron">
+      <div class="center">
+        <div class="row"><h1 class="text-center">Hello Whiskey!</h1></div>
+        <div id="elegant_image"><%= image_tag("elegant3.png") %></div>
+        <p class="lead">You look thirsty (and responsible!)</p>
+        <p>Gather those ingredients and let's get started</p>
+        <%= link_to 'What Can I Make?', recipes_search_path, class: "btn btn-lg" %>
+      </div>
     </div>
-  </div>
-<% end %>
-
+  <% end %>
 </div>
 
 
-<div class="container"
     <div class="row">
       <%= notice %>
       <%= alert %>
       <div><%= yield %></div>
     </div>
-</div>
+
 
 <% if current_page?(recipes_path) %>
   <h1>current page!</h1>
