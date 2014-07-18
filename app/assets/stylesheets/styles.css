@@ -1,0 +1,19 @@
+.center {
+  text-align: center;
+}
+
+.check_boxes.required.control-label{
+    display: none;
+}
+
+.full {
+  background: url(whiskeyclose.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btn {
+  font-size: 18px;
+}
