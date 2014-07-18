@@ -2,9 +2,11 @@
 
 <%= simple_form_for :search, url: recipes_path, method: :get do |f| %>
   <% Category.all.each do |category| %>
-    <div class=<%= category.name.gsub(" ", "-") %>>
-      <h3><%= category.name %></h3>
-      <div class="ingredient_checkboxes"><%= f.input :component_ids, collection: category.components, as: :check_boxes %></div>
+    <div class="row ingredient-row">
+      <div class=<%= category.name.gsub(" ", "-") %>>
+        <h3><%= category.name %></h3>
+        <div class="ingredient_checkboxes"><%= f.input :component_ids, collection: category.components, as: :check_boxes %></div>
+      </div>
     </div>
   <% end %>
 
