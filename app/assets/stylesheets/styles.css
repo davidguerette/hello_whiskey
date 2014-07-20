@@ -7,13 +7,19 @@
 }
 
 .btn-lg {
-  font-size: 40px;
-  padding: 28px 55px 28px;
-  line-height: 26px;
+  font-size: 16px;
+  padding: 18px 50px;
+  /*line-height: 20px;*/
   text-transform: none;
   font-weight: normal;
   border: black;
-  /*background-color: #CBCBCB;*/
+  background-color: #fafafa;
+  border: 1px solid;
+}
+
+.btn-lg:hover {
+  background-color: #black;
+  color: #white;
 }
 
 body {
@@ -44,4 +50,9 @@ h3 {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+#elegant_image {
+  padding-bottom: 30px;
+
 }
