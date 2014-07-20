@@ -16,7 +16,6 @@
 }
 
 body {
-  margin-top: 5px;
   color: #000000;
 }
 
@@ -37,4 +36,11 @@ h3 {
 
 .jumbotron.h1 {
   font-size: 75;
+}
+
+.ingredient_row_container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
