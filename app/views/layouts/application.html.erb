@@ -33,17 +33,31 @@
   </div>
 
   <% if current_page?(root_path) %>
-    <div class="container-fluid">
+    <div class="container-fluid center">
       <div class="jumbotron">
-        <div class="center">
-          <h1 class="text-center">Hello Whiskey!</h1>
-            <div class="row"></div>
-            <div class="col-md-4" id="elegant_image"><%= image_tag("elegant3.png") %></div>
-            <div class"col-md-8"><h3>Step 1: Gather your ingredients</h3></div>
-            <%= link_to "Step 2: Fix a drink", recipes_search_path, class: "btn btn-lg" %>
-          </div>
+        <h1>Hello Whiskey!</h1>
+        <p class="lead">You look thirsty (and responsible!) A fine drink is only two steps away.</p>
+          <!-- <div class="col-sm-4"><i class="fa fa-glass fa-3x"></i></span></div> -->
+      </div>
+
+      <div class="row">
+        <div class="col-md-5">
+          <h1>Step 1</h1>
+          <p class="lead">Gather your ingredients</p>
+        </div>
+        <div class="col-md-2"><i class="fa fa-long-arrow-right fa-5x"></i></div>
+        <div class="col-md-5">
+          <h1>Step 2</h1>
+          <%= link_to "Step 2: Fix a drink", recipes_search_path, class: "btn btn-lg" %>
         </div>
       </div>
+
+
+      <div class="col-md-4" id="elegant_image"><%= image_tag("elegant3.png") %></div>
+
+          </div>
+
+      <!-- </div> -->
     </div>
   <% end %>
 

@@ -12,7 +12,8 @@
   line-height: 26px;
   text-transform: none;
   font-weight: normal;
-  background-color: #CBCBCB;
+  border: black;
+  /*background-color: #CBCBCB;*/
 }
 
 body {
