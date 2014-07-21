@@ -1,28 +1,12 @@
-== README
+== Hello Whiskey!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[Hello Whiskey](http://hellowhiskey.herokuapp.com) is a reverse-recipe lookup app exclusively for whiskey cocktails.
+Built as a breakable toy during Launch Academy's summer 2014 cohort.
 
-Things you may want to cover:
+Future features
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Additional RSpec test coverage
+* User ability to decide if garnishes are optional
+* Improved user interface for ingredient entry
+* Improved logic to improve reabability of citrus ingredients (most are currently displayed as oz)
+* Improved layout responsiveness
