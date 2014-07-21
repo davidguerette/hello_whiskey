@@ -35,6 +35,8 @@ gem 'devise'
 
 gem 'rails_12factor'
 
+gem 'kaminari'
+
 group :test, :development do
   gem 'capybara'
   gem 'pry-rails'
