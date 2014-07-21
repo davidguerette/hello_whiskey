@@ -1,6 +1,8 @@
 == Hello Whiskey!
 
-[Hello Whiskey](http://hellowhiskey.herokuapp.com) is a reverse-recipe lookup app exclusively for whiskey cocktails.
+Visit the app: http://hellowhiskey.herokuapp.com
+
+Hello Whiskey is a reverse-recipe lookup app exclusively for whiskey cocktails.
 Built as a breakable toy during Launch Academy's summer 2014 cohort.
 
 Future features
