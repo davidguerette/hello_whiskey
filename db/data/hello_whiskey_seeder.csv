@@ -7,12 +7,12 @@ Ward 8,0.5,wheel,orange,,,citrus,"Shake with ice and strain into red wine glass 
 Ward 8,0.5,wheel,lemon,,,citrus,"Shake with ice and strain into red wine glass filled with ice. Garnish with orange, lemon, and cherry. Serve with straws."
 Ward 8,1,,maraschino cherry,TRUE,,garnish,"Shake with ice and strain into red wine glass filled with ice. Garnish with orange, lemon, and cherry. Serve with straws."
 Manhattan,2,oz,rye whiskey,,bourbon whiskey,whiskey,Stir with ice and strain into chilled cocktail glass. Garnish with cherry.
-Manhattan,0.5,oz,sweet vermouth,,,aromatics,Stir with ice and strain into chilled cocktail glass. Garnish with cherry.
+Manhattan,0.5,oz,sweet vermouth,,,wines,Stir with ice and strain into chilled cocktail glass. Garnish with cherry.
 Manhattan,1,dash,Angustora bitters,,,bitters,Stir with ice and strain into chilled cocktail glass. Garnish with cherry.
 Manhattan,1,,maraschino cherry,TRUE,,garnish,Stir with ice and strain into chilled cocktail glass. Garnish with cherry.
 Old-Fashioned Cocktail,2,oz,rye whiskey,,bourbon whiskey,whiskey,"Pour whiskey, syrup and bitters into cracked ice filled old-fashioned glass and stir. Garnish with orange and cherry."
 Old-Fashioned Cocktail,0.25,oz,simple syrup,,,sugars and syrups,"Pour whiskey, syrup and bitters into cracked ice filled old-fashioned glass and stir. Garnish with orange and cherry."
-Old-Fashioned Cocktail,2,dashes,angustora bitters,,orange bitters,bitters,"Pour whiskey, syrup and bitters into cracked ice filled old-fashioned glass and stir. Garnish with orange and cherry."
+Old-Fashioned Cocktail,2,dashes,Angustora bitters,,orange bitters,bitters,"Pour whiskey, syrup and bitters into cracked ice filled old-fashioned glass and stir. Garnish with orange and cherry."
 Old-Fashioned Cocktail,1,wheel,orange,,,citrus,"Pour whiskey, syrup and bitters into cracked ice filled old-fashioned glass and stir. Garnish with orange and cherry."
 Old-Fashioned Cocktail,1,,Italian preserved cherry,TRUE,,garnish,"Pour whiskey, syrup and bitters into cracked ice filled old-fashioned glass and stir. Garnish with orange and cherry."
 1626,2.5,oz,bourbon whiskey,,,whiskey,Shake well with ice and strain into chilled cocktail glass.  Garnish with cherry.
@@ -22,7 +22,7 @@ Old-Fashioned Cocktail,1,,Italian preserved cherry,TRUE,,garnish,"Pour whiskey, 
 1626,1,,Italian preserved cherry,,,garnish,Shake well with ice and strain into chilled cocktail glass.  Garnish with cherry.
 19th Century,1.5,oz,bourbon whiskey,,,whiskey,Shake well with ice and strain into chilled cocktail glass.  Garnish with cherry.
 19th Century,0.75,oz,lemon,,,citrus,Shake well with ice and strain into chilled cocktail glass.  Garnish with cherry.
-19th Century,0.75,oz,crËme de cacao,,,cordials and liqueurs,Shake well with ice and strain into chilled cocktail glass.  Garnish with cherry.
+19th Century,0.75,oz,creme de cacao,,,cordials and liqueurs,Shake well with ice and strain into chilled cocktail glass.  Garnish with cherry.
 19th Century,0.75,oz,Lillet Rouge,,,cordials and liqueurs,Shake well with ice and strain into chilled cocktail glass.  Garnish with cherry.
 Academic Review,1.5,oz,irish whiskey,,,whiskey,Stir with ice and strain into ice-filled old-fashioned glass. Add orange twist.
 Academic Review,0.5,oz,applejack,,,lesser spirits,Stir with ice and strain into ice-filled old-fashioned glass. Add orange twist.
@@ -37,11 +37,11 @@ Adderly Cocktail,0.75,oz,lemon,,,citrus,Shake with ice and strain into cocktail 
 Adderly Cocktail,2,dashes,orange bitters,,,bitters,Shake with ice and strain into cocktail glass.  Flame orange twist and add.
 Adderly Cocktail,1,twist,orange,,,citrus,Shake with ice and strain into cocktail glass.  Flame orange twist and add.
 Affinity Cocktail,1,oz,blended scotch whiskey,,,whiskey,Stir with ice and strain into chilled cocktail glass.
-Affinity Cocktail,1,oz,dry vermouth,,,aromatics,Stir with ice and strain into chilled cocktail glass.
-Affinity Cocktail,1,oz,sweet vermouth,,,aromatics,Stir with ice and strain into chilled cocktail glass.
+Affinity Cocktail,1,oz,dry vermouth,,,wines,Stir with ice and strain into chilled cocktail glass.
+Affinity Cocktail,1,oz,sweet vermouth,,,wines,Stir with ice and strain into chilled cocktail glass.
 Affinity Cocktail,3,dashes,orange bitters,,,bitters,Stir with ice and strain into chilled cocktail glass.
 Allegheny,1,oz,bourbon whiskey,,,whiskey,Shake with ice and strain into chilled cocktail glass.  Add lemon twist.
-Allegheny,1,oz,dry vermouth,,,aromatics,Shake with ice and strain into chilled cocktail glass.  Add lemon twist.
+Allegheny,1,oz,dry vermouth,,,wines,Shake with ice and strain into chilled cocktail glass.  Add lemon twist.
 Allegheny,0.5,oz,blackberry-flavored brandy,,,cordials and liqueurs,Shake with ice and strain into chilled cocktail glass.  Add lemon twist.
 Allegheny,0.5,oz,lemon,,,citrus,Shake with ice and strain into chilled cocktail glass.  Add lemon twist.
 Allegheny,1,twist,lemon,,,citrus,Shake with ice and strain into chilled cocktail glass.  Add lemon twist.
@@ -50,22 +50,22 @@ American Trilogy,1,oz,straight rye whiskey,,,whiskey,"Muddle sugar cube in mixer
 American Trilogy,1,oz,applejack,,,lesser spirits,"Muddle sugar cube in mixer glass.  Add whiskey, applejack and ice.  Stir and strain into chilled old-fashioned glass.  Add orange twist."
 American Trilogy,1,twist,orange,,,citrus,"Muddle sugar cube in mixer glass.  Add whiskey, applejack and ice.  Stir and strain into chilled old-fashioned glass.  Add orange twist."
 Autumn Leaves,0.75,oz,straight rye whiskey,,,whiskey,Stir with ice and strain into ice-filled old-fashioned glass. Add orange twist.
-Autumn Leaves,0.75,oz,apple brandey,,,lesser spirits,Stir with ice and strain into ice-filled old-fashioned glass. Add orange twist.
-Autumn Leaves,0.75,oz,sweet vermouth,,,aromatics,Stir with ice and strain into ice-filled old-fashioned glass. Add orange twist.
-Autumn Leaves,0.25,oz,strega,,Benedictine,aromatics,Stir with ice and strain into ice-filled old-fashioned glass. Add orange twist.
+Autumn Leaves,0.75,oz,apple brandy,,,lesser spirits,Stir with ice and strain into ice-filled old-fashioned glass. Add orange twist.
+Autumn Leaves,0.75,oz,sweet vermouth,,,wines,Stir with ice and strain into ice-filled old-fashioned glass. Add orange twist.
+Autumn Leaves,0.25,oz,strega,,Benedictine,cordials and liqueurs,Stir with ice and strain into ice-filled old-fashioned glass. Add orange twist.
 Autumn Leaves,2,dashes,Angustora bitters,,,bitters,Stir with ice and strain into ice-filled old-fashioned glass. Add orange twist.
 Autumn Leaves,1,twist,orange,,,citrus,Stir with ice and strain into ice-filled old-fashioned glass. Add orange twist.
 Basin Street,2,oz,bourbon whiskey,,,whiskey,Shake well with ice and strain into chilled cocktail glass.
 Basin Street,0.75,oz,triple sec,,,cordials and liqueurs,Shake well with ice and strain into chilled cocktail glass.
 Basin Street,0.75,oz,lemon,,,citrus,Shake well with ice and strain into chilled cocktail glass.
 Beals Cocktail,1.5,oz,blended scotch whiskey,,,whiskey,Stir with ice and strain into chilled cocktail glass.
-Beals Cocktail,0.5,oz,dry vermouth,,,aromatics,Stir with ice and strain into chilled cocktail glass.
-Beals Cocktail,0.5,oz,sweet vermouth,,,aromatics,Stir with ice and strain into chilled cocktail glass.
+Beals Cocktail,0.5,oz,dry vermouth,,,wines,Stir with ice and strain into chilled cocktail glass.
+Beals Cocktail,0.5,oz,sweet vermouth,,,wines,Stir with ice and strain into chilled cocktail glass.
 Black Hawk,1.5,oz,bourbon whiskey,,,whiskey,Stir with ice and strain into chilled cocktail glass.  Garnish with cherry.
 Black Hawk,1.5,oz,sloe gin,,,lesser spirits,Stir with ice and strain into chilled cocktail glass.  Garnish with cherry.
 Black Hawk,1,,maraschino cherry,,,garnish,Stir with ice and strain into chilled cocktail glass.  Garnish with cherry.
 Blarney Stone Cocktail,2,oz,irish whiskey,,,whiskey,Shake with ice and strain into chilled cocktail glass.  Add orange twist and olive.
-Blarney Stone Cocktail,0.5,oz,anisette,,,aromatics,Shake with ice and strain into chilled cocktail glass.  Add orange twist and olive.
+Blarney Stone Cocktail,0.5,oz,anisette,,,cordials and liqueurs,Shake with ice and strain into chilled cocktail glass.  Add orange twist and olive.
 Blarney Stone Cocktail,0.5,oz,triple sec,,,cordials and liqueurs,Shake with ice and strain into chilled cocktail glass.  Add orange twist and olive.
 Blarney Stone Cocktail,0.5,oz,maraschino liqueur,,,cordials and liqueurs,Shake with ice and strain into chilled cocktail glass.  Add orange twist and olive.
 Blarney Stone Cocktail,1,dash,Angustora bitters,,,bitters,Shake with ice and strain into chilled cocktail glass.  Add orange twist and olive.
@@ -73,14 +73,14 @@ Blarney Stone Cocktail,1,twist,orange,,,citrus,Shake with ice and strain into ch
 Blarney Stone Cocktail,1,,green olive,,,garnish,Shake with ice and strain into chilled cocktail glass.  Add orange twist and olive.
 Blood and Sand,0.5,oz,blended scotch whiskey,,,whiskey,Shake with ice and strain into chilled cocktail glass.
 Blood and Sand,0.5,oz,cherry-flavored brandy,,,cordials and liqueurs,Shake with ice and strain into chilled cocktail glass.
-Blood and Sand,0.5,oz,sweet vermouth,,,aromatics,Shake with ice and strain into chilled cocktail glass.
-Blood and Sand,0.5,oz,orange ,,,citrus,Shake with ice and strain into chilled cocktail glass.
+Blood and Sand,0.5,oz,sweet vermouth,,,wines,Shake with ice and strain into chilled cocktail glass.
+Blood and Sand,0.5,oz,orange,,,citrus,Shake with ice and strain into chilled cocktail glass.
 Bobby Burns Cocktail,1.5,oz,blended scotch whiskey,,,whiskey,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
-Bobby Burns Cocktail,1.5,oz,sweet vermouth,,,aromatics,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
-Bobby Burns Cocktail,1,tsp,Benedictine,,,aromatics,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
+Bobby Burns Cocktail,1.5,oz,sweet vermouth,,,wines,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
+Bobby Burns Cocktail,1,tsp,Benedictine,,,cordials and liqueurs,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
 Bobby Burns Cocktail,1,twist,lemon,,,citrus,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
 Bourbon A La CrËme,2,oz,bourbon whiskey,,,whiskey,Stir ingredients with ice.  Strain into chilled old-fashioned glass.
-Bourbon A La CrËme,1,oz,dark crËme de cacao,,,cordials and liqueurs,Stir ingredients with ice.  Strain into chilled old-fashioned glass.
+Bourbon A La CrËme,1,oz,dark creme de cacao,,,cordials and liqueurs,Stir ingredients with ice.  Strain into chilled old-fashioned glass.
 Bourbon A La CrËme,0.5,oz,vanilla liqueur,,,cordials and liqueurs,Stir ingredients with ice.  Strain into chilled old-fashioned glass.
 Bourbon and Elder,2,oz,bourbon whiskey,,,whiskey,Stir with ice and strain into chilled old-fashioned glass.  Add lemon twist.
 Bourbon and Elder,0.75,oz,elderflower liqueur,,,cordials and liqueurs,Stir with ice and strain into chilled old-fashioned glass.  Add lemon twist.
@@ -91,12 +91,12 @@ Bourbon Highball,,,ginger ale,,soda water,sodas,Pour whiskey into ice-filled hig
 Bourbon Highball,1,twist,lemon,,,citrus,Pour whiskey into ice-filled highball glass.  Fill with ginger ale or soda water and stir.  Add lemon twist.
 Bourbon Renewal,2,oz,bourbon whiskey,,,whiskey,Shake with ice and strain into ice-filled old-fashioned glass.
 Bourbon Renewal,1,oz,lemon,,,citrus,Shake with ice and strain into ice-filled old-fashioned glass.
-Bourbon Renewal,0.5,oz,crËme de cassis,,,cordials and liqueurs,Shake with ice and strain into ice-filled old-fashioned glass.
+Bourbon Renewal,0.5,oz,creme de cassis,,,cordials and liqueurs,Shake with ice and strain into ice-filled old-fashioned glass.
 Bourbon Renewal,0.5,oz,simple syrup,,,sugars and syrups,Shake with ice and strain into ice-filled old-fashioned glass.
 Bourbon Renewal,1,dash,Angustora bitters,,,bitters,Shake with ice and strain into ice-filled old-fashioned glass.
 Brighton Punch,0.75,oz,bourbon whiskey,,,whiskey,"Shake bourbon, brandy, Benedictine and citrus juices with ice and pour with ice into Collins glass.  Fill with soda water and stir gently.  Garnish with orange and lemon and serve with straws."
 Brighton Punch,0.75,oz,brandy,,,lesser spirits,"Shake bourbon, brandy, Benedictine and citrus juices with ice and pour with ice into Collins glass.  Fill with soda water and stir gently.  Garnish with orange and lemon and serve with straws."
-Brighton Punch,0.75,oz,Benedictine,,,aromatics,"Shake bourbon, brandy, Benedictine and citrus juices with ice and pour with ice into Collins glass.  Fill with soda water and stir gently.  Garnish with orange and lemon and serve with straws."
+Brighton Punch,0.75,oz,Benedictine,,,cordials and liqueurs,"Shake bourbon, brandy, Benedictine and citrus juices with ice and pour with ice into Collins glass.  Fill with soda water and stir gently.  Garnish with orange and lemon and serve with straws."
 Brighton Punch,2,oz,orange,,,citrus,"Shake bourbon, brandy, Benedictine and citrus juices with ice and pour with ice into Collins glass.  Fill with soda water and stir gently.  Garnish with orange and lemon and serve with straws."
 Brighton Punch,1,oz,lemon,,,citrus,"Shake bourbon, brandy, Benedictine and citrus juices with ice and pour with ice into Collins glass.  Fill with soda water and stir gently.  Garnish with orange and lemon and serve with straws."
 Brighton Punch,,,soda water,,,sodas,"Shake bourbon, brandy, Benedictine and citrus juices with ice and pour with ice into Collins glass.  Fill with soda water and stir gently.  Garnish with orange and lemon and serve with straws."
@@ -143,13 +143,13 @@ Debonaire,2.5,oz,single-malt scotch whiskey,,,whiskey,Stir and strain into chill
 Debonaire,1,oz,ginger liqueur,,,cordials and liqueurs,Stir and strain into chilled cocktail glass.  Add lemon twist.
 Debonaire,1,twist,lemon,,,citrus,Stir and strain into chilled cocktail glass.  Add lemon twist.
 De La Louisiane,0.75,oz,straight rye whiskey,,,whiskey,Stir with ice and strain into chilled cocktail glass.  Garnish with cherry.
-De La Louisiane,0.75,oz,sweet vermouth,,,aromatics,Stir with ice and strain into chilled cocktail glass.  Garnish with cherry.
-De La Louisiane,0.75,oz,Benedictine,,,aromatics,Stir with ice and strain into chilled cocktail glass.  Garnish with cherry.
+De La Louisiane,0.75,oz,sweet vermouth,,,wines,Stir with ice and strain into chilled cocktail glass.  Garnish with cherry.
+De La Louisiane,0.75,oz,Benedictine,,,cordials and liqueurs,Stir with ice and strain into chilled cocktail glass.  Garnish with cherry.
 De La Louisiane,3,dashes,absinthe,,pastis,lesser spirits,Stir with ice and strain into chilled cocktail glass.  Garnish with cherry.
 De La Louisiane,3,dashes,Peychaud's bitters,,,bitters,Stir with ice and strain into chilled cocktail glass.  Garnish with cherry.
 De La Louisiane,1,,maraschino cherry,,,garnish,Stir with ice and strain into chilled cocktail glass.  Garnish with cherry.
 Derby,2,oz,bourbon whiskey,,,whiskey,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
-Derby,0.25,oz,Benedictine,,,aromatics,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
+Derby,0.25,oz,Benedictine,,,cordials and liqueurs,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
 Derby,1,dash,Angustora bitters,,,bitters,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
 Derby,1,twist,lemon,,,citrus,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
 Dinah Cocktail,1.5,oz,bourbon whiskey,,,whiskey,Shake well with ice and strain into chilled cocktail glass.  Garnish with mint.
@@ -158,13 +158,13 @@ Dinah Cocktail,0.5,oz,simple syrup,,,sugars and syrups,Shake well with ice and s
 Dinah Cocktail,,,fresh mint,,,garnish,Shake well with ice and strain into chilled cocktail glass.  Garnish with mint.
 Dirty Harry,1,splash,absinthe,,,lesser spirits,Swirl absinthe in chilled cocktail glass to coat inside; discard excess absinthe.  Stir remaining ingredients with ice and strain into glass.  Garnish with cherry.
 Dirty Harry,2,oz,straight rye whiskey,,,whiskey,Swirl absinthe in chilled cocktail glass to coat inside; discard excess absinthe.  Stir remaining ingredients with ice and strain into glass.  Garnish with cherry.
-Dirty Harry,0.5,oz,sweet vermouth,,,aromatics,Swirl absinthe in chilled cocktail glass to coat inside; discard excess absinthe.  Stir remaining ingredients with ice and strain into glass.  Garnish with cherry.
+Dirty Harry,0.5,oz,sweet vermouth,,,wines,Swirl absinthe in chilled cocktail glass to coat inside; discard excess absinthe.  Stir remaining ingredients with ice and strain into glass.  Garnish with cherry.
 Dirty Harry,0.25,oz,maraschino liqueur,,,cordials and liqueurs,Swirl absinthe in chilled cocktail glass to coat inside; discard excess absinthe.  Stir remaining ingredients with ice and strain into glass.  Garnish with cherry.
 Dirty Harry,1,,maraschino cherry,,,garnish,Swirl absinthe in chilled cocktail glass to coat inside; discard excess absinthe.  Stir remaining ingredients with ice and strain into glass.  Garnish with cherry.
 Double Standard Sour,0.75,oz,rye whiskey,,bourbon whiskey,whiskey,Shake with ice and strain into chilled cocktail glass.  Garnish with lemon and cherry.
 Double Standard Sour,0.75,oz,gin,,,lesser spirits,Shake with ice and strain into chilled cocktail glass.  Garnish with lemon and cherry.
 Double Standard Sour,1,oz,lemon,,,citrus,Shake with ice and strain into chilled cocktail glass.  Garnish with lemon and cherry.
-Double Standard Sour,0.5,tsp,white crËme de menthe,,,cordials and liqueurs,Shake with ice and strain into chilled cocktail glass.  Garnish with lemon and cherry.
+Double Standard Sour,0.5,tsp,white creme de menthe,,,cordials and liqueurs,Shake with ice and strain into chilled cocktail glass.  Garnish with lemon and cherry.
 Double Standard Sour,0.5,oz,grenadine,,,sugars and syrups,Shake with ice and strain into chilled cocktail glass.  Garnish with lemon and cherry.
 Double Standard Sour,0.25,oz,simple syrup,,,sugars and syrups,Shake with ice and strain into chilled cocktail glass.  Garnish with lemon and cherry.
 Double Standard Sour,0.5,wheel,lemon,,,citrus,Shake with ice and strain into chilled cocktail glass.  Garnish with lemon and cherry.
@@ -186,7 +186,7 @@ Fancy Whiskey,0.25,oz,triple sec,,,cordials and liqueurs,Shake with ice and stra
 Fancy Whiskey,0.25,oz,simple syrup,,,sugars and syrups,Shake with ice and strain into chilled cocktail glass.  Add lemon twist.
 Fancy Whiskey,1,twist,lemon,,,citrus,Shake with ice and strain into chilled cocktail glass.  Add lemon twist.
 Flying Scotsman,1,oz,blended scotch whiskey,,,whiskey,Stir with ice and strain into chilled cocktail glass.
-Flying Scotsman,1,oz,sweet vermouth,,,aromatics,Stir with ice and strain into chilled cocktail glass.
+Flying Scotsman,1,oz,sweet vermouth,,,wines,Stir with ice and strain into chilled cocktail glass.
 Flying Scotsman,1,dash,Angustora bitters,,,bitters,Stir with ice and strain into chilled cocktail glass.
 Flying Scotsman,0.25,oz,simple syrup,,,sugars and syrups,Stir with ice and strain into chilled cocktail glass.
 Francis the Mule,2,oz,bourbon whiskey,,,whiskey,Shake with ice and strain into chilled cocktail glass.  Add lemon twist.
@@ -198,14 +198,14 @@ Francis the Mule,1,twist,lemon,,,citrus,Shake with ice and strain into chilled c
 Frisco Sour,2,oz,bourbon whiskey,,rye whiskey,whiskey,Shake with ice and strain into chilled sour glass.  Garnish with lemon and lime.
 Frisco Sour,0.75,oz,lemon,,,citrus,Shake with ice and strain into chilled sour glass.  Garnish with lemon and lime.
 Frisco Sour,0.5,oz,lime,,,citrus,Shake with ice and strain into chilled sour glass.  Garnish with lemon and lime.
-Frisco Sour,0.5,oz,Benedictine,,,aromatics,Shake with ice and strain into chilled sour glass.  Garnish with lemon and lime.
+Frisco Sour,0.5,oz,Benedictine,,,cordials and liqueurs,Shake with ice and strain into chilled sour glass.  Garnish with lemon and lime.
 Frisco Sour,1,wheel,lemon,,,citrus,Shake with ice and strain into chilled sour glass.  Garnish with lemon and lime.
 Frisco Sour,1,wheel,lime,,,citrus,Shake with ice and strain into chilled sour glass.  Garnish with lemon and lime.
 Godfather,1.5,oz,blended scotch whiskey,,,whiskey,Pour into ice-filled old-fashioned glass and stir.
 Godfather,0.75,oz,amaretto,,,cordials and liqueurs,Pour into ice-filled old-fashioned glass and stir.
 Grandfather,1,oz,bourbon whiskey,,,whiskey,Stir with ice and strain into chilled cocktail glass.  Garnish with cherry.
 Grandfather,1,oz,applejack,,,lesser spirits,Stir with ice and strain into chilled cocktail glass.  Garnish with cherry.
-Grandfather,1,oz,sweet vermouth,,,aromatics,Stir with ice and strain into chilled cocktail glass.  Garnish with cherry.
+Grandfather,1,oz,sweet vermouth,,,wines,Stir with ice and strain into chilled cocktail glass.  Garnish with cherry.
 Grandfather,1,dash,Angustora bitters,,,bitters,Stir with ice and strain into chilled cocktail glass.  Garnish with cherry.
 Grandfather,1,dash,Peychaud's bitters,,,bitters,Stir with ice and strain into chilled cocktail glass.  Garnish with cherry.
 Grandfather,1,,maraschino cherry,,,garnish,Stir with ice and strain into chilled cocktail glass.  Garnish with cherry.
@@ -214,12 +214,12 @@ Highland Cooler,0.5,oz,simple syrup,,,sugars and syrups,Stir scotch and syrup in
 Highland Cooler,,,soda water,,ginger ale,sodas,Stir scotch and syrup in Collins glass.  Add ice.  Fill with soda and stir again.  Insert citrus spiral(s) and dangle ends over rim of glass.
 Highland Cooler,1,spiral,lemon zest,,orange zest,citrus,Stir scotch and syrup in Collins glass.  Add ice.  Fill with soda and stir again.  Insert citrus spiral(s) and dangle ends over rim of glass.
 Hole-In-One,1.75,oz,blended scotch whiskey,,,whiskey,Shake with ice and strain into chilled cocktail glass.
-Hole-In-One,0.75,oz,dry vermouth,,,aromatics,Shake with ice and strain into chilled cocktail glass.
+Hole-In-One,0.75,oz,dry vermouth,,,wines,Shake with ice and strain into chilled cocktail glass.
 Hole-In-One,0.25,oz,lemon,,,citrus,Shake with ice and strain into chilled cocktail glass.
 Hole-In-One,1,dash,orange bitters,,,bitters,Shake with ice and strain into chilled cocktail glass.
 Hoot Mon Cocktail,1.5,oz,blended scotch whiskey,,,whiskey,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
-Hoot Mon Cocktail,0.75,oz,sweet vermouth,,,whiskey,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
-Hoot Mon Cocktail,1,tsp,Benedictine,,,aromatics,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
+Hoot Mon Cocktail,0.75,oz,sweet vermouth,,,wines,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
+Hoot Mon Cocktail,1,tsp,Benedictine,,,cordials and liqueurs,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
 Hoot Mon Cocktail,1,twist,lemon,,,citrus,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
 Horse's Neck (With A Kick),2,oz,bourbon whiskey,,,whiskey,"Insert the lemon spiral in Collins glass with one end hanging over the rim.  Fill glass with ice cubes, add whiskey.  Fill with ginger ale and stir well."
 Horse's Neck (With A Kick),1,spiral,lemon zest,,,citrus,"Insert the lemon spiral in Collins glass with one end hanging over the rim.  Fill glass with ice cubes, add whiskey.  Fill with ginger ale and stir well."
@@ -241,4 +241,249 @@ Irish Whiskey Cocktail,1,dash,Angustora bitters,,,bitters,Stir with ice and stra
 Irish Whiskey Cocktail,1,,green olive,,,garnish,Stir with ice and strain into chilled cocktail glass.  Garnish with olive.
 Irish Whiskey Highball,2,oz,irish whiskey,,,whiskey,"Pour whiskey into ice-filled highball glass.  Fill with ginger ale or soda water.  Add lemon twist, if desired, and stir."
 Irish Whiskey Highball,,,ginger ale,,soda water,sodas,"Pour whiskey into ice-filled highball glass.  Fill with ginger ale or soda water.  Add lemon twist, if desired, and stir."
-Irish Whiskey Highball,1,twist,lemon,TRUE,,garnish,"Pour whiskey into ice-filled highball glass.  Fill with ginger ale or soda water.  Add lemon twist, if desired, and stir."
+Irish Whiskey Highball,1,twist,lemon,TRUE,,citrus,"Pour whiskey into ice-filled highball glass.  Fill with ginger ale or soda water.  Add lemon twist, if desired, and stir."
+John Collins,2,oz,bourbon whiskey,,,whiskey,"Shake bourbon, lemon juice and simple syrup with ice and strain into Collins glass.  Add ice, fill with soda water, and stir.  Garnish with orange, lemon and cherry.  Serve with straws."
+John Collins,1,oz,lemon,,,citrus,"Shake bourbon, lemon juice and simple syrup with ice and strain into Collins glass.  Add ice, fill with soda water, and stir.  Garnish with orange, lemon and cherry.  Serve with straws."
+John Collins,0.5,oz,simple syrup,,,sugars and syrups,"Shake bourbon, lemon juice and simple syrup with ice and strain into Collins glass.  Add ice, fill with soda water, and stir.  Garnish with orange, lemon and cherry.  Serve with straws."
+John Collins,,,soda water,,,sodas,"Shake bourbon, lemon juice and simple syrup with ice and strain into Collins glass.  Add ice, fill with soda water, and stir.  Garnish with orange, lemon and cherry.  Serve with straws."
+John Collins,1,wheel,orange,,,citrus,"Shake bourbon, lemon juice and simple syrup with ice and strain into Collins glass.  Add ice, fill with soda water, and stir.  Garnish with orange, lemon and cherry.  Serve with straws."
+John Collins,1,wheel,lemon,,,citrus,"Shake bourbon, lemon juice and simple syrup with ice and strain into Collins glass.  Add ice, fill with soda water, and stir.  Garnish with orange, lemon and cherry.  Serve with straws."
+John Collins,1,,maraschino cherry,,,garnish,"Shake bourbon, lemon juice and simple syrup with ice and strain into Collins glass.  Add ice, fill with soda water, and stir.  Garnish with orange, lemon and cherry.  Serve with straws."
+Kentucky Colonel Cocktail,2,oz,bourbon whiskey,,,whiskey,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
+Kentucky Colonel Cocktail,1,oz,Benedictine,,,cordials and liqueurs,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
+Kentucky Colonel Cocktail,1,twist,lemon,,,citrus,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
+Klondike Cooler,2,oz,bourbon whiskey,,,whiskey,"Stir bourbon and syrup in Collins glass.  Add ice, fill with soda and stir again.  Insert citrus spiral and dangle end over rim of glass."
+Klondike Cooler,0.25,oz,simple syrup,,,sugars and syrups,"Stir bourbon and syrup in Collins glass.  Add ice, fill with soda and stir again.  Insert citrus spiral and dangle end over rim of glass."
+Klondike Cooler,,,soda water,,ginger ale,sodas,"Stir bourbon and syrup in Collins glass.  Add ice, fill with soda and stir again.  Insert citrus spiral and dangle end over rim of glass."
+Klondike Cooler,1,spiral,lemon zest,,orange zest,citrus,"Stir bourbon and syrup in Collins glass.  Add ice, fill with soda and stir again.  Insert citrus spiral and dangle end over rim of glass."
+Lawhill Cocktail,1.5,oz,straight rye whiskey,,,whiskey,Stir with ice and strain into chilled cocktail glass.
+Lawhill Cocktail,0.75,oz,dry vermouth,,,wines,Stir with ice and strain into chilled cocktail glass.
+Lawhill Cocktail,0.25,oz,maraschino liqueur,,,cordials and liqueurs,Stir with ice and strain into chilled cocktail glass.
+Lawhill Cocktail,0.25,oz,anisette,,,cordials and liqueurs,Stir with ice and strain into chilled cocktail glass.
+Lawhill Cocktail,1,dash ,Angustora bitters,,,bitters,Stir with ice and strain into chilled cocktail glass.
+Limestone Cocktail,1.5,oz ,bourbon whiskey,,,whiskey,"Stir bourbon, lemon and simple syrup in ice-filled highball glass.  Fill with soda water and stir again."
+Limestone Cocktail,1,oz,lemon,,,citrus,"Stir bourbon, lemon and simple syrup in ice-filled highball glass.  Fill with soda water and stir again."
+Limestone Cocktail,0.5,oz,simple syrup,,,sugars and syrups,"Stir bourbon, lemon and simple syrup in ice-filled highball glass.  Fill with soda water and stir again."
+Limestone Cocktail,,,soda water,,,sodas,"Stir bourbon, lemon and simple syrup in ice-filled highball glass.  Fill with soda water and stir again."
+Mamie Gilroy,2,oz,blended scotch whiskey,,,whiskey,Stir scotch and lime juice in ice-filled Collins glass.  Top with ginger ale and stir.
+Mamie Gilroy,0.5,oz,lime,,,citrus,Stir scotch and lime juice in ice-filled Collins glass.  Top with ginger ale and stir.
+Mamie Gilroy,,,ginger ale,,,sodas,Stir scotch and lime juice in ice-filled Collins glass.  Top with ginger ale and stir.
+Manhasset,1.5,oz,bourbon whiskey,,,whiskey,Shake with ice and strain into chilled cocktail glass.
+Manhasset,0.75,oz,dry vermouth,,,wines,Shake with ice and strain into chilled cocktail glass.
+Manhasset,0.75,oz,sweet vermouth,,,wines,Shake with ice and strain into chilled cocktail glass.
+Manhasset,0.5,oz,lemon,,,citrus,Shake with ice and strain into chilled cocktail glass.
+Miami Beach Cocktail,0.75,oz,blended scotch whiskey,,,whiskey,Shake with ice and strain into chilled cocktail glass.
+Miami Beach Cocktail,0.75,oz,dry vermouth,,,wines,Shake with ice and strain into chilled cocktail glass.
+Miami Beach Cocktail,0.75,oz,grapefruit,,,citrus,Shake with ice and strain into chilled cocktail glass.
+Mint Julep,0.5,oz,simple syrup,,,sugars and syrups,"Pour syrup into silver julep cup, silver mug, or Collins glass.  Fill with shaved or crushed ice and add bourbon.  Stir until glass is heavily frosted, adding more ice if necessary.  Garnish with mint so that the tops are about 2 inches above rim of glass.  Use short straws so that it will be necessary to bury nose in mint, which is intended for scent rather than taste."
+Mint Julep,2.5,oz,bourbon whiskey,,,whiskey,"Pour syrup into silver julep cup, silver mug, or Collins glass.  Fill with shaved or crushed ice and add bourbon.  Stir until glass is heavily frosted, adding more ice if necessary.  Garnish with mint so that the tops are about 2 inches above rim of glass.  Use short straws so that it will be necessary to bury nose in mint, which is intended for scent rather than taste."
+Mint Julep,5,sprigs,fresh mint,,,garnish,"Pour syrup into silver julep cup, silver mug, or Collins glass.  Fill with shaved or crushed ice and add bourbon.  Stir until glass is heavily frosted, adding more ice if necessary.  Garnish with mint so that the tops are about 2 inches above rim of glass.  Use short straws so that it will be necessary to bury nose in mint, which is intended for scent rather than taste."
+Modern Cocktail,1.5,oz,blended scotch whiskey,,,whiskey,Shake with ice and strain into chilled cocktail glass.  Garnish with cherry.
+Modern Cocktail,0.5,oz,Jamaican rum,,,lesser spirits,Shake with ice and strain into chilled cocktail glass.  Garnish with cherry.
+Modern Cocktail,0.25,oz,anisette,,,cordials and liqueurs,Shake with ice and strain into chilled cocktail glass.  Garnish with cherry.
+Modern Cocktail,0.5,tsp,lemon,,,citrus,Shake with ice and strain into chilled cocktail glass.  Garnish with cherry.
+Modern Cocktail,1,dash,orange bitters,,,bitters,Shake with ice and strain into chilled cocktail glass.  Garnish with cherry.
+Modern Cocktail,1,,maraschino cherry,,,garnish,Shake with ice and strain into chilled cocktail glass.  Garnish with cherry.
+Monte Carlo,2,oz,straight rye whiskey,,,whiskey,Stir with ice and strain into chilled cocktail glass.
+Monte Carlo,0.5,oz,Benedictine,,,cordials and liqueurs,Stir with ice and strain into chilled cocktail glass.
+Monte Carlo,2,dashes,Angustora bitters,,,bitters,Stir with ice and strain into chilled cocktail glass.
+Narragansett,1,splash,anisette,,,cordials and liqueurs,"Swirl anisette in old-fashioned glass to coat inside.  Add ice, then whiskey and vermouth and stir.  Add lemon twist."
+Narragansett,1.5,oz,bourbon whiskey,,,whiskey,"Swirl anisette in old-fashioned glass to coat inside.  Add ice, then whiskey and vermouth and stir.  Add lemon twist."
+Narragansett,1,oz,sweet vermouth,,,wines,"Swirl anisette in old-fashioned glass to coat inside.  Add ice, then whiskey and vermouth and stir.  Add lemon twist."
+Narragansett,1,twist,lemon,,,citrus,"Swirl anisette in old-fashioned glass to coat inside.  Add ice, then whiskey and vermouth and stir.  Add lemon twist."
+New York Cocktail,1.5,oz,straight rye whiskey,,,whiskey,Shake with ice and strain into chilled cocktail glass.  Add lemon twist.
+New York Cocktail,0.75,oz,lemon,,,citrus,Shake with ice and strain into chilled cocktail glass.  Add lemon twist.
+New York Cocktail,0.25,oz,simple syrup,,,sugars and syrups,Shake with ice and strain into chilled cocktail glass.  Add lemon twist.
+New York Cocktail,0.25,oz,grenadine,,,sugars and syrups,Shake with ice and strain into chilled cocktail glass.  Add lemon twist.
+New York Cocktail,1,twist,lemon,,,citrus,Shake with ice and strain into chilled cocktail glass.  Add lemon twist.
+New York Sour,2,oz,rye whiskey,,bourbon whiskey,whiskey,"Shake whiskey, lemon juice and simple syrup with ice.  Strain into ice-filled old-fashioned glass.  Float red wine on top.  Garnish with lemon and cherry."
+New York Sour,0.75,oz,lemon,,,citrus,"Shake whiskey, lemon juice and simple syrup with ice.  Strain into ice-filled old-fashioned glass.  Float red wine on top.  Garnish with lemon and cherry."
+New York Sour,0.75,oz,simple syrup,,,sugars and syrups,"Shake whiskey, lemon juice and simple syrup with ice.  Strain into ice-filled old-fashioned glass.  Float red wine on top.  Garnish with lemon and cherry."
+New York Sour,1,oz,red wine,,,wines,"Shake whiskey, lemon juice and simple syrup with ice.  Strain into ice-filled old-fashioned glass.  Float red wine on top.  Garnish with lemon and cherry."
+New York Sour,0.5,wheel,lemon,,,citrus,"Shake whiskey, lemon juice and simple syrup with ice.  Strain into ice-filled old-fashioned glass.  Float red wine on top.  Garnish with lemon and cherry."
+New York Sour,1,,maraschino cherry,,,garnish,"Shake whiskey, lemon juice and simple syrup with ice.  Strain into ice-filled old-fashioned glass.  Float red wine on top.  Garnish with lemon and cherry."
+Old Pal Cocktail,1.25,oz,rye whiskey,,,whiskey,Stir with ice and strain into chilled cocktail glass.
+Old Pal Cocktail,0.5,oz,sweet vermouth,,,wines,Stir with ice and strain into chilled cocktail glass.
+Old Pal Cocktail,0.5,oz,grenadine,,,sugars and syrups,Stir with ice and strain into chilled cocktail glass.
+Oriental Cocktail,1,oz,rye whiskey,,,whiskey,Shake with ice and strain into chilled cocktail glass.
+Oriental Cocktail,0.5,oz,sweet vermouth,,,wines,Shake with ice and strain into chilled cocktail glass.
+Oriental Cocktail,0.5,oz,triple sec,,,cordials and liqueurs,Shake with ice and strain into chilled cocktail glass.
+Oriental Cocktail,0.5,oz,lime,,,citrus,Shake with ice and strain into chilled cocktail glass.
+Paddy Cocktail,1.5,oz ,irish whiskey,,,whiskey,Stir with ice and strain into chilled cocktail glass.
+Paddy Cocktail,1.5,oz,sweet vermouth,,,wines,Stir with ice and strain into chilled cocktail glass.
+Paddy Cocktail,1,dash,Angustora bitters,,,bitters,Stir with ice and strain into chilled cocktail glass.
+Pendennis Toddy,1,,sugar cube,,,sugars and syrups,"Muddle sugar with 1 tsp water in ice-filled old-fashioned glass.  Fill with ice, add bourbon and stir.  Garnish with lemon."
+Pendennis Toddy,2,oz,bourbon whiskey,,,whiskey,"Muddle sugar with 1 tsp water in ice-filled old-fashioned glass.  Fill with ice, add bourbon and stir.  Garnish with lemon."
+Pendennis Toddy,2,wheels,lemon,,,citrus,"Muddle sugar with 1 tsp water in ice-filled old-fashioned glass.  Fill with ice, add bourbon and stir.  Garnish with lemon."
+Preakness Cocktail,1.5,oz,straight rye whiskey,,,whiskey,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
+Preakness Cocktail,0.75,oz,sweet vermouth,,,wines,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
+Preakness Cocktail,0.25,oz,Benedictine,,,cordials and liqueurs,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
+Preakness Cocktail,1,dash,Angustora bitters,,,bitters,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
+Preakness Cocktail,1,twist,lemon,,,citrus,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
+Red Raider,1,oz,bourbon whiskey,,,whiskey,Shake with ice and strain into chilled cocktail glass.
+Red Raider,0.5,oz,triple sec,,,cordials and liqueurs,Shake with ice and strain into chilled cocktail glass.
+Red Raider,1,oz,lemon,,,citrus,Shake with ice and strain into chilled cocktail glass.
+Red Raider,1,tsp,grenadine,,,sugars and syrups,Shake with ice and strain into chilled cocktail glass.
+Robert Burns,1.5,oz,blended scotch whiskey,,,whiskey,Stir with ice and strain into chilled cocktail glass.
+Robert Burns,0.5,oz,sweet vermouth,,,wines,Stir with ice and strain into chilled cocktail glass.
+Robert Burns,1,dash,orange bitters,,,bitters,Stir with ice and strain into chilled cocktail glass.
+Robert Burns,1,dash,absinthe,,pastis,lesser spirits,Stir with ice and strain into chilled cocktail glass.
+Rob Roy,1.5,oz,blended scotch whiskey,,,whiskey,Stir with ice and strain into chilled cocktail glass.
+Rob Roy,0.75,oz,sweet vermouth,,,wines,Stir with ice and strain into chilled cocktail glass.
+Rory O' More,1.5,oz,irish whiskey,,,whiskey,Stir with ice and strain into chilled cocktail glass.
+Rory O' More,0.75,oz,sweet vermouth,,,wines,Stir with ice and strain into chilled cocktail glass.
+Rory O' More,1,dash,orange bitters,,,bitters,Stir with ice and strain into chilled cocktail glass.
+Rye Cocktail,2,oz,straight rye whiskey,,,whiskey,Shake with ice and strain into chilled cocktail glass.  Garnish with cherry.
+Rye Cocktail,0.5,oz,simple syrup,,,sugars and syrups,Shake with ice and strain into chilled cocktail glass.  Garnish with cherry.
+Rye Cocktail,1,dash,Angustora bitters,,,bitters,Shake with ice and strain into chilled cocktail glass.  Garnish with cherry.
+Rye Cocktail,1,,maraschino cherry,,,garnish,Shake with ice and strain into chilled cocktail glass.  Garnish with cherry.
+Rye Highball,2,oz,rye whiskey,,,whiskey,Pour whiskey into ice-filled highball glass.  Fill with ginger ale or soda water.  Add lemon twist and stir.
+Rye Highball,,,ginger ale,,soda water,sodas,Pour whiskey into ice-filled highball glass.  Fill with ginger ale or soda water.  Add lemon twist and stir.
+Rye Highball,1,twist,lemon,,,citrus,Pour whiskey into ice-filled highball glass.  Fill with ginger ale or soda water.  Add lemon twist and stir.
+Santiago Scotch Plaid,1.5,oz,blended scotch whiskey,,,whiskey,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
+Santiago Scotch Plaid,0.5,oz,dry vermouth,,,wines,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
+Santiago Scotch Plaid,2,dashes,Angustora bitters,,,bitters,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
+Santiago Scotch Plaid,1,twist,lemon,,,citrus,Stir with ice and strain into chilled cocktail glass.  Add lemon twist.
+Sazerac,1,,sugar cube,,,sugars and syrups,"Fill old-fashioned glass with ice.  Muddle sugar and bitters in second old-fashioned glass.  Add whiskey and stir.  Discard ice from first glass.  Add absinthe to chilled glass, swirl to coat inside and discard excess absinthe.  Pour whiskey mixture from second glass into chilled glass.  Twist lemon over drink, but do not add to glass."
+Sazerac,3,dashes,Peychaud's bitters,,,bitters,"Fill old-fashioned glass with ice.  Muddle sugar and bitters in second old-fashioned glass.  Add whiskey and stir.  Discard ice from first glass.  Add absinthe to chilled glass, swirl to coat inside and discard excess absinthe.  Pour whiskey mixture from second glass into chilled glass.  Twist lemon over drink, but do not add to glass."
+Sazerac,2,oz,rye whiskey,,,whiskey,"Fill old-fashioned glass with ice.  Muddle sugar and bitters in second old-fashioned glass.  Add whiskey and stir.  Discard ice from first glass.  Add absinthe to chilled glass, swirl to coat inside and discard excess absinthe.  Pour whiskey mixture from second glass into chilled glass.  Twist lemon over drink, but do not add to glass."
+Sazerac,0.25,oz,absinthe,,,lesser spirits,"Fill old-fashioned glass with ice.  Muddle sugar and bitters in second old-fashioned glass.  Add whiskey and stir.  Discard ice from first glass.  Add absinthe to chilled glass, swirl to coat inside and discard excess absinthe.  Pour whiskey mixture from second glass into chilled glass.  Twist lemon over drink, but do not add to glass."
+Sazerac,1,twist,lemon,,,citrus,"Fill old-fashioned glass with ice.  Muddle sugar and bitters in second old-fashioned glass.  Add whiskey and stir.  Discard ice from first glass.  Add absinthe to chilled glass, swirl to coat inside and discard excess absinthe.  Pour whiskey mixture from second glass into chilled glass.  Twist lemon over drink, but do not add to glass."
+Scofflaw,1,oz,canadian whiskey,,,whiskey,Stir with ice and strain into chilled cocktail glass.  Garnish with lemon.
+Scofflaw,1,oz,dry vermouth,,,wines,Stir with ice and strain into chilled cocktail glass.  Garnish with lemon.
+Scofflaw,0.25,oz,lemon,,,citrus,Stir with ice and strain into chilled cocktail glass.  Garnish with lemon.
+Scofflaw,1,dash,grenadine,,,sugars and syrups,Stir with ice and strain into chilled cocktail glass.  Garnish with lemon.
+Scofflaw,1,dash,orange bitters,,,bitters,Stir with ice and strain into chilled cocktail glass.  Garnish with lemon.
+Scofflaw,1,wedge,lemon,,,citrus,Stir with ice and strain into chilled cocktail glass.  Garnish with lemon.
+Scotch Bishop Cocktail,1,oz,blended scotch whiskey,,,whiskey,Shake with ice and strain into chilled cocktail glass.  Add lemon twist.
+Scotch Bishop Cocktail,0.5,oz,orange,,,citrus,Shake with ice and strain into chilled cocktail glass.  Add lemon twist.
+Scotch Bishop Cocktail,0.5,oz,dry vermouth,,,wines,Shake with ice and strain into chilled cocktail glass.  Add lemon twist.
+Scotch Bishop Cocktail,0.5,tsp,triple sec,,,cordials and liqueurs,Shake with ice and strain into chilled cocktail glass.  Add lemon twist.
+Scotch Bishop Cocktail,0.25,oz,simple syrup,,,sugars and syrups,Shake with ice and strain into chilled cocktail glass.  Add lemon twist.
+Scotch Bishop Cocktail,1,twist,lemon,,,citrus,Shake with ice and strain into chilled cocktail glass.  Add lemon twist.
+Scotch Highball,2,oz,blended scotch whiskey,,,whiskey,Pour scotch into ice-filled highball glass and fill with ginger ale or soda water.  Add lemon twist and stir.
+Scotch Highball,,,ginger ale,,soda water,sodas,Pour scotch into ice-filled highball glass and fill with ginger ale or soda water.  Add lemon twist and stir.
+Scotch Highball,1,twist,lemon,,,citrus,Pour scotch into ice-filled highball glass and fill with ginger ale or soda water.  Add lemon twist and stir.
+Scotch Old-Fashioned,2,oz,blended scotch whiskey,,,whiskey,"Pour scotch, simple syrup and bitters into ice-filled old-fashioned glass and stir.  Add lemon twist."
+Scotch Old-Fashioned,0.5,oz,simple syrup,,,sugars and syrups,"Pour scotch, simple syrup and bitters into ice-filled old-fashioned glass and stir.  Add lemon twist."
+Scotch Old-Fashioned,1,dash,Angustora bitters,,,bitters,"Pour scotch, simple syrup and bitters into ice-filled old-fashioned glass and stir.  Add lemon twist."
+Scotch Old-Fashioned,1,twist,lemon,,,citrus,"Pour scotch, simple syrup and bitters into ice-filled old-fashioned glass and stir.  Add lemon twist."
+Scotch Rickey,1.5,oz,blended scotch whiskey,,,whiskey,Pour scotch and lime juice into ice-filled highball glass.  Fill with soda water and stir.  Add lime twist.
+Scotch Rickey,0.5,oz,lime,,,citrus,Pour scotch and lime juice into ice-filled highball glass.  Fill with soda water and stir.  Add lime twist.
+Scotch Rickey,,,soda water,,,sodas,Pour scotch and lime juice into ice-filled highball glass.  Fill with soda water and stir.  Add lime twist.
+Scotch Rickey,1,twist,lime,,,citrus,Pour scotch and lime juice into ice-filled highball glass.  Fill with soda water and stir.  Add lime twist.
+Scotch Royale,1,,sugar cube,,,sugars and syrups,Place sugar cube and bitters in chilled champagne flute.  Stir scotch and ice in mixing glass and strain into flute.  Fill with champagne.
+Scotch Royale,1,dash ,Angustora bitters,,,bitters,Place sugar cube and bitters in chilled champagne flute.  Stir scotch and ice in mixing glass and strain into flute.  Fill with champagne.
+Scotch Royale,1.5,oz,blended scotch whiskey,,,whiskey,Place sugar cube and bitters in chilled champagne flute.  Stir scotch and ice in mixing glass and strain into flute.  Fill with champagne.
+Scotch Royale,,,champagne,,,wines,Place sugar cube and bitters in chilled champagne flute.  Stir scotch and ice in mixing glass and strain into flute.  Fill with champagne.
+Scotch Sour,2,oz,blended scotch whiskey,,,whiskey,Shake with ice and strain into chilled cocktail glass.  Garnish with lemon and cherry.
+Scotch Sour,0.75,oz,lime,,,citrus,Shake with ice and strain into chilled cocktail glass.  Garnish with lemon and cherry.
+Scotch Sour,0.75,oz,simple syrup,,,sugars and syrups,Shake with ice and strain into chilled cocktail glass.  Garnish with lemon and cherry.
+Scotch Sour,0.5,wheel,lemon,,,citrus,Shake with ice and strain into chilled cocktail glass.  Garnish with lemon and cherry.
+Scotch Sour,1,,maraschino cherry,,,garnish,Shake with ice and strain into chilled cocktail glass.  Garnish with lemon and cherry.
+Scotch Stinger,1.5,oz,blended scotch whiskey,,,whiskey,Shake with ice and strain into chilled cocktail glass.
+Scotch Stinger,0.5,oz,white creme de menthe,,,cordials and liqueurs,Shake with ice and strain into chilled cocktail glass.
+Scottish Guard,1.5,oz,bourbon whiskey,,,whiskey,Shake with ice and strain into chilled cocktail glass.
+Scottish Guard,0.5,oz,lemon,,,citrus,Shake with ice and strain into chilled cocktail glass.
+Scottish Guard,0.5,oz,orange,,,citrus,Shake with ice and strain into chilled cocktail glass.
+Scottish Guard,1,tsp,grenadine,,,sugars and syrups,Shake with ice and strain into chilled cocktail glass.
+Seaboard,1,oz,blended scotch whiskey,,,whiskey,Shake with ice and strain into ice-filled old-fashioned glass.  Garnish with mint leaves.
+Seaboard,1,oz,gin,,,lesser spirits,Shake with ice and strain into ice-filled old-fashioned glass.  Garnish with mint leaves.
+Seaboard,0.75,oz,lemon,,,citrus,Shake with ice and strain into ice-filled old-fashioned glass.  Garnish with mint leaves.
+Seaboard,0.75,oz,simple syrup,,,sugars and syrups,Shake with ice and strain into ice-filled old-fashioned glass.  Garnish with mint leaves.
+Seaboard,,,fresh mint,,,garnish,Shake with ice and strain into ice-filled old-fashioned glass.  Garnish with mint leaves.
+The Seelbach Cocktail,0.75,oz,bourbon whiskey,,,whiskey,Add ingredients in any order to chilled champagne flute.  Add orange twist.
+The Seelbach Cocktail,0.5,oz,triple sec,,,cordials and liqueurs,Add ingredients in any order to chilled champagne flute.  Add orange twist.
+The Seelbach Cocktail,7,dashes,Angustora bitters,,,bitters,Add ingredients in any order to chilled champagne flute.  Add orange twist.
+The Seelbach Cocktail,7,dashes,Peychaud's bitters,,,bitters,Add ingredients in any order to chilled champagne flute.  Add orange twist.
+The Seelbach Cocktail,4,oz,champagne,,,wines,Add ingredients in any order to chilled champagne flute.  Add orange twist.
+The Seelbach Cocktail,1,twist,orange,,,citrus,Add ingredients in any order to chilled champagne flute.  Add orange twist.
+Silent Third,2,oz,blended scotch whiskey,,,whiskey,Shake with ice and strain into chilled cocktail glass.
+Silent Third,1,oz,triple sec,,,cordials and liqueurs,Shake with ice and strain into chilled cocktail glass.
+Silent Third,1,oz,lemon,,,citrus,Shake with ice and strain into chilled cocktail glass.
+Stiletto,1.5,oz,bourbon whiskey,,,whiskey,Pour into ice-filled old-fashioned glass and stir.
+Stiletto,1,oz,lemon,,,citrus,Pour into ice-filled old-fashioned glass and stir.
+Stiletto,0.5,oz,amaretto,,,cordials and liqueurs,Pour into ice-filled old-fashioned glass and stir.
+Swiss Family Cocktail,1.5,,blended scotch whiskey,,,whiskey,Stir with ice and strain into chilled cocktail glass.
+Swiss Family Cocktail,0.75,,dry vermouth,,,wines,Stir with ice and strain into chilled cocktail glass.
+Swiss Family Cocktail,1,tsp,anisette,,,cordials and liqueurs,Stir with ice and strain into chilled cocktail glass.
+Swiss Family Cocktail,2,dashes,Angustora bitters,,,bitters,Stir with ice and strain into chilled cocktail glass.
+Thoroughbred Cooler,1,oz,bourbon whiskey,,,whiskey,"Pour whiskey, citrus juice and simple syrup over ice in highball glass.  Fill with lemon-lime soda and stir.  Add grenadine.  Garnish with orange."
+Thoroughbred Cooler,1,oz,orange,,,citrus,"Pour whiskey, citrus juice and simple syrup over ice in highball glass.  Fill with lemon-lime soda and stir.  Add grenadine.  Garnish with orange."
+Thoroughbred Cooler,0.5,oz,lemon,,,citrus,"Pour whiskey, citrus juice and simple syrup over ice in highball glass.  Fill with lemon-lime soda and stir.  Add grenadine.  Garnish with orange."
+Thoroughbred Cooler,0.5,oz,simple syrup,,,sugars and syrups,"Pour whiskey, citrus juice and simple syrup over ice in highball glass.  Fill with lemon-lime soda and stir.  Add grenadine.  Garnish with orange."
+Thoroughbred Cooler,,,lemon-lime soda,,,sodas,"Pour whiskey, citrus juice and simple syrup over ice in highball glass.  Fill with lemon-lime soda and stir.  Add grenadine.  Garnish with orange."
+Thoroughbred Cooler,1,dash,grenadine,,,sugars and syrups,"Pour whiskey, citrus juice and simple syrup over ice in highball glass.  Fill with lemon-lime soda and stir.  Add grenadine.  Garnish with orange."
+Thoroughbred Cooler,1,wedge,orange,,,citrus,"Pour whiskey, citrus juice and simple syrup over ice in highball glass.  Fill with lemon-lime soda and stir.  Add grenadine.  Garnish with orange."
+Twin Hills,1.5,oz,bourbon whiskey,,,whiskey,Shake with ice and strain into chilled cocktail glass.  Garnish with lemon and lime.
+Twin Hills,0.25,oz,Benedictine,,,cordials and liqueurs,Shake with ice and strain into chilled cocktail glass.  Garnish with lemon and lime.
+Twin Hills,0.5,oz,lemon,,,citrus,Shake with ice and strain into chilled cocktail glass.  Garnish with lemon and lime.
+Twin Hills,0.5,oz,lime,,,citrus,Shake with ice and strain into chilled cocktail glass.  Garnish with lemon and lime.
+Twin Hills,0.75,oz,simple syrup,,,sugars and syrups,Shake with ice and strain into chilled cocktail glass.  Garnish with lemon and lime.
+Twin Hills,1,wheel,lemon,,,citrus,Shake with ice and strain into chilled cocktail glass.  Garnish with lemon and lime.
+Twin Hills,1,wheel,lime,,,citrus,Shake with ice and strain into chilled cocktail glass.  Garnish with lemon and lime.
+Trilby Cocktail,1.5,oz,bourbon whiskey,,,whiskey,Stir with ice and strain into chilled cocktail glass.
+Trilby Cocktail,0.75,oz,sweet vermouth,,,wines,Stir with ice and strain into chilled cocktail glass.
+Trilby Cocktail,2,dashes,orange bitters,,,bitters,Stir with ice and strain into chilled cocktail glass.
+Vieux Carre,0.75,oz,straight rye whiskey,,,whiskey,Pour into ice-filled old-fashioned glass and stir.
+Vieux Carre,0.75,oz,brandy,,,lesser spirits,Pour into ice-filled old-fashioned glass and stir.
+Vieux Carre,0.75,oz,sweet vermouth,,,wines,Pour into ice-filled old-fashioned glass and stir.
+Vieux Carre,0.25,oz,Benedictine,,,cordials and liqueurs,Pour into ice-filled old-fashioned glass and stir.
+Vieux Carre,1,dash,Peychaud's bitters,,,bitters,Pour into ice-filled old-fashioned glass and stir.
+Vieux Carre,1,dash,Angustora bitters,,,bitters,Pour into ice-filled old-fashioned glass and stir.
+Walters,1.5,oz,blended scotch whiskey,,,whiskey,Shake with ice and strain into chilled cocktail glass.
+Walters,0.5,oz,orange,,,citrus,Shake with ice and strain into chilled cocktail glass.
+Walters,0.5,oz,lemon,,,citrus,Shake with ice and strain into chilled cocktail glass.
+Whiskey Collins,2,oz,rye whiskey,,bourbon whiskey,whiskey,"Shake whiskey, lemon juice and simple syrup with ice.  Strain into ice-filled Collins glass.  Top with soda water and stir.  Garnish with lemon, orange and cherry.  Serve with straw."
+Whiskey Collins,1,oz,lemon,,,citrus,"Shake whiskey, lemon juice and simple syrup with ice.  Strain into ice-filled Collins glass.  Top with soda water and stir.  Garnish with lemon, orange and cherry.  Serve with straw."
+Whiskey Collins,0.5,oz,simple syrup,,,sugars and syrups,"Shake whiskey, lemon juice and simple syrup with ice.  Strain into ice-filled Collins glass.  Top with soda water and stir.  Garnish with lemon, orange and cherry.  Serve with straw."
+Whiskey Collins,,,soda water,,,sodas,"Shake whiskey, lemon juice and simple syrup with ice.  Strain into ice-filled Collins glass.  Top with soda water and stir.  Garnish with lemon, orange and cherry.  Serve with straw."
+Whiskey Collins,0.5,wheel,lemon,,,citrus,"Shake whiskey, lemon juice and simple syrup with ice.  Strain into ice-filled Collins glass.  Top with soda water and stir.  Garnish with lemon, orange and cherry.  Serve with straw."
+Whiskey Collins,0.5,wheel,orange,,,citrus,"Shake whiskey, lemon juice and simple syrup with ice.  Strain into ice-filled Collins glass.  Top with soda water and stir.  Garnish with lemon, orange and cherry.  Serve with straw."
+Whiskey Collins,1,,maraschino cherry,,,garnish,"Shake whiskey, lemon juice and simple syrup with ice.  Strain into ice-filled Collins glass.  Top with soda water and stir.  Garnish with lemon, orange and cherry.  Serve with straw."
+Whiskey Fix,2.5,oz,rye whiskey,,bourbon whiskey,whiskey,"Shake whiskey, lemon juice and simple syrup with ice.  Strain into ice-filled highball glass.  Garnish with lemon.  Serve with straws."
+Whiskey Fix,1,oz,lemon,,,citrus,"Shake whiskey, lemon juice and simple syrup with ice.  Strain into ice-filled highball glass.  Garnish with lemon.  Serve with straws."
+Whiskey Fix,0.5,oz,simple syrup,,,sugars and syrups,"Shake whiskey, lemon juice and simple syrup with ice.  Strain into ice-filled highball glass.  Garnish with lemon.  Serve with straws."
+Whiskey Fix,1,wheel,lemon,,,citrus,"Shake whiskey, lemon juice and simple syrup with ice.  Strain into ice-filled highball glass.  Garnish with lemon.  Serve with straws."
+Whiskey Highball,2,oz,rye whiskey,,bourbon whiskey,whiskey,Pour whiskey into ice-filled highball glass.  Fill with ginger ale or soda water.  Add lemon twist and stir.
+Whiskey Highball,,,ginger ale,,soda water,sodas,Pour whiskey into ice-filled highball glass.  Fill with ginger ale or soda water.  Add lemon twist and stir.
+Whiskey Highball,1,twist,lemon,,,citrus,Pour whiskey into ice-filled highball glass.  Fill with ginger ale or soda water.  Add lemon twist and stir.
+Whiskey Orange,1.5,oz,rye whiskey,,bourbon whiskey,whiskey,Shake with ice and strain into ice-filled highball glass.  Garnish with orange and lemon.
+Whiskey Orange,2,oz,orange,,,citrus,Shake with ice and strain into ice-filled highball glass.  Garnish with orange and lemon.
+Whiskey Orange,0.5,oz,simple syrup,,,sugars and syrups,Shake with ice and strain into ice-filled highball glass.  Garnish with orange and lemon.
+Whiskey Orange,1,tsp,anisette,,,cordials and liqueurs,Shake with ice and strain into ice-filled highball glass.  Garnish with orange and lemon.
+Whiskey Orange,0.5,wheel,orange,,,citrus,Shake with ice and strain into ice-filled highball glass.  Garnish with orange and lemon.
+Whiskey Orange,0.5,wheel,lemon,,,citrus,Shake with ice and strain into ice-filled highball glass.  Garnish with orange and lemon.
+Whiskey Rickey,1,,lime,,,citrus,Squeeze .5 oz lime juice from lime and reserve spent rinds.  Pour whiskey and lime juice into ice-filled highball glass.  Fill with soda water and stir.  Drop lime rinds into glass.
+Whiskey Rickey,1.5,oz,rye whiskey,,bourbon whiskey,whiskey,Squeeze .5 oz lime juice from lime and reserve spent rinds.  Pour whiskey and lime juice into ice-filled highball glass.  Fill with soda water and stir.  Drop lime rinds into glass.
+Whiskey Rickey,,,soda water,,,sodas,Squeeze .5 oz lime juice from lime and reserve spent rinds.  Pour whiskey and lime juice into ice-filled highball glass.  Fill with soda water and stir.  Drop lime rinds into glass.
+Whiskey Sling,2,oz,rye whiskey,,bourbon whiskey,whiskey,Pour into ice-filled old-fashioned glass and stir.  Add lemon twist.
+Whiskey Sling,1,oz,lemon,,,citrus,Pour into ice-filled old-fashioned glass and stir.  Add lemon twist.
+Whiskey Sling,0.5,oz,simple syrup,,,sugars and syrups,Pour into ice-filled old-fashioned glass and stir.  Add lemon twist.
+Whiskey Sling,1,twist,lemon,,,citrus,Pour into ice-filled old-fashioned glass and stir.  Add lemon twist.
+Whiskey Smash,1,,sugar cube,,,sugars and syrups,Muddle sugar with soda water and mint in old-fashioned glass.  Add whiskey and then ice cubes.  Stir.  Garnish with orange and cherry and add lemon twist.
+Whiskey Smash,1,oz,soda water,,,sodas,Muddle sugar with soda water and mint in old-fashioned glass.  Add whiskey and then ice cubes.  Stir.  Garnish with orange and cherry and add lemon twist.
+Whiskey Smash,4,sprigs,fresh mint,,,garnish,Muddle sugar with soda water and mint in old-fashioned glass.  Add whiskey and then ice cubes.  Stir.  Garnish with orange and cherry and add lemon twist.
+Whiskey Smash,2,oz,bourbon whiskey,,,whiskey,Muddle sugar with soda water and mint in old-fashioned glass.  Add whiskey and then ice cubes.  Stir.  Garnish with orange and cherry and add lemon twist.
+Whiskey Smash,1,wheel,orange,,,citrus,Muddle sugar with soda water and mint in old-fashioned glass.  Add whiskey and then ice cubes.  Stir.  Garnish with orange and cherry and add lemon twist.
+Whiskey Smash,1,,maraschino cherry,,,garnish,Muddle sugar with soda water and mint in old-fashioned glass.  Add whiskey and then ice cubes.  Stir.  Garnish with orange and cherry and add lemon twist.
+Whiskey Smash,1,twist,lemon,,,citrus,Muddle sugar with soda water and mint in old-fashioned glass.  Add whiskey and then ice cubes.  Stir.  Garnish with orange and cherry and add lemon twist.
+Whiskey Sour,2,oz,rye whiskey,,bourbon whiskey,whiskey,Shake with ice and strain into chilled cocktail glass.  Garnish with lemon and cherry.
+Whiskey Sour,0.75,oz,lemon,,,citrus,Shake with ice and strain into chilled cocktail glass.  Garnish with lemon and cherry.
+Whiskey Sour,0.75,oz,simple syrup,,,sugars and syrups,Shake with ice and strain into chilled cocktail glass.  Garnish with lemon and cherry.
+Whiskey Sour,0.5,wheel,lemon,,,citrus,Shake with ice and strain into chilled cocktail glass.  Garnish with lemon and cherry.
+Whiskey Sour,1,,maraschino cherry,,,garnish,Shake with ice and strain into chilled cocktail glass.  Garnish with lemon and cherry.
+Whiskey Swizzle,2,oz,rye whiskey,,bourbon whiskey,whiskey,"Pour whiskey, lime juice, simple syrup and bitters into Collins glass.  Fill glass with ice and stir.  Add ice and fill with soda.  With barspoon between your palms, move hands back and forth to quickly rotate and lift spoon until glass is frosted."
+Whiskey Swizzle,0.75,oz,lime,,,citrus,"Pour whiskey, lime juice, simple syrup and bitters into Collins glass.  Fill glass with ice and stir.  Add ice and fill with soda.  With barspoon between your palms, move hands back and forth to quickly rotate and lift spoon until glass is frosted."
+Whiskey Swizzle,0.75,oz,simple syrup,,,sugars and syrups,"Pour whiskey, lime juice, simple syrup and bitters into Collins glass.  Fill glass with ice and stir.  Add ice and fill with soda.  With barspoon between your palms, move hands back and forth to quickly rotate and lift spoon until glass is frosted."
+Whiskey Swizzle,2,dashes,Angustora bitters,,,bitters,"Pour whiskey, lime juice, simple syrup and bitters into Collins glass.  Fill glass with ice and stir.  Add ice and fill with soda.  With barspoon between your palms, move hands back and forth to quickly rotate and lift spoon until glass is frosted."
+Whiskey Swizzle,,,soda water,,,sodas,"Pour whiskey, lime juice, simple syrup and bitters into Collins glass.  Fill glass with ice and stir.  Add ice and fill with soda.  With barspoon between your palms, move hands back and forth to quickly rotate and lift spoon until glass is frosted."
+"Whoa, Nellie!",1.5,oz,straight rye whiskey,,,whiskey,Shake with ice and strain into chilled cocktail glass.  Add grapefruit twist.
+"Whoa, Nellie!",0.75,oz,dark rum,,,lesser spirits,Shake with ice and strain into chilled cocktail glass.  Add grapefruit twist.
+"Whoa, Nellie!",0.5,oz,lemon,,,citrus,Shake with ice and strain into chilled cocktail glass.  Add grapefruit twist.
+"Whoa, Nellie!",0.5,oz,grapefruit,,,citrus,Shake with ice and strain into chilled cocktail glass.  Add grapefruit twist.
+"Whoa, Nellie!",0.5,oz,simple syrup,,,sugars and syrups,Shake with ice and strain into chilled cocktail glass.  Add grapefruit twist.
+"Whoa, Nellie!",1,twist,grapefruit,,,citrus,Shake with ice and strain into chilled cocktail glass.  Add grapefruit twist.
+Woodward Cocktail,1.5,oz,blended scotch whiskey,,,whiskey,Shake with ice and strain into chilled cocktail glass.
+Woodward Cocktail,0.5,oz,dry vermouth,,,wines,Shake with ice and strain into chilled cocktail glass.
+Woodward Cocktail,0.5,oz,grapefruit,,,citrus,Shake with ice and strain into chilled cocktail glass.
