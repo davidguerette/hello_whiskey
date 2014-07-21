@@ -33,7 +33,7 @@ gem 'font-awesome-sass'
 
 gem 'devise'
 
-gem 'rails_12factor'
+gem 'rails_12factor', group: :production
 
 gem 'kaminari'
 
