@@ -12,8 +12,3 @@ Future features
 * Improved user interface for ingredient entry
 * Improved logic to improve reabability of citrus ingredients (most are currently displayed as oz)
 * Improved layout responsiveness
-
-
-Data model below:
-
-![er_diagram](https://cloud.githubusercontent.com/assets/3588068/3651260/8e2800be-1125-11e4-9bb4-a93a02244ad1.jpg)
