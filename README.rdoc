@@ -12,3 +12,8 @@ Future features
 * Improved user interface for ingredient entry
 * Improved logic to improve reabability of citrus ingredients (most are currently displayed as oz)
 * Improved layout responsiveness
+
+
+Data model below:
+
+![alt text](davidguerette/hello_whiskey/blob/master/README_hello_whiskey_ER_diagram.jpg)
