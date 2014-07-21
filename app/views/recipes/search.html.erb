@@ -1,10 +1,10 @@
 <div class="col-md-8 opacity">
-  <h2>What ingredients do you have?</h2>
+  <h1>Enter those ingredients!</h2>
   <%= simple_form_for :search, url: recipes_path, method: :get do |f| %>
     <% Category.all.each do |category| %>
       <div class="row ingredient-row">
         <div class=<%= category.name.gsub(" ", "-") %>>
-          <h3><%= category.name %></h3>
+          <h2><%= category.name %></h2>
           <div class="checkbox form-inline ingredient_checkboxes"><%= f.input :component_ids, collection: category.components, as: :check_boxes %></div>
         </div>
       </div>
