@@ -29,7 +29,7 @@
         </ul>
       </div>
     </div>
-  <%= notice %><%= alert %>
+    <div class="col-md-12 center"><%= notice %><%= alert %></div>
   </div>
 
   <% if current_page?(root_path) %>
@@ -44,21 +44,18 @@
     <div class="container-fluid center">
       <div class="row opacity" id="welcome-steps">
         <div class="col-md-4">
-          <h1>Step 1</h1>
+          <h1>Step 1</h1><hr />
           <p class="lead">Gather your ingredients</p>
-          <hr />
           <p>Bitters, citrus, whiskies of course, other (lesser) spirits -- go get them all!</p>
         </div>
         <div class="col-md-4">
-          <h1>Step 2</h1>
-          <p class="lead">Discover the drinks you can make with what you have at home.</p>
-          <hr />
+          <h1>Step 2</h1><hr />
+          <p class="lead">Find out what you can make</p>
           <%= link_to "Enter your ingredients", recipes_search_path, class: "btn btn-lg" %>
         </div>
         <div class="col-md-4">
-          <h1>Step 3</h1>
+          <h1>Step 3</h1><hr />
           <p class="lead">Enjoy</p>
-          <hr />
           <p>Shake, stir, and enjoy responsibly.<br />Repeat steps 2 and 3.</p>
         </div>
       </div>

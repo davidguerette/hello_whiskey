@@ -1,15 +1,21 @@
-<div class="col-md-8 opacity">
-  <h2>What ingredients do you have?</h2>
+<div class="col-md-8 col-md-offset-2 opacity">
+  <div class="row">
+    <div class="col-md-12 page-header center">
+      <h1>Enter those ingredients!</h1>
+      <p class="lead">Have all your ingredients lined up? Good. Enter them below and learn what you can make.</p>
+    </div>
+  </div>
   <%= simple_form_for :search, url: recipes_path, method: :get do |f| %>
     <% Category.all.each do |category| %>
       <div class="row ingredient-row">
         <div class=<%= category.name.gsub(" ", "-") %>>
-          <h3><%= category.name %></h3>
+          <h2 class="center"><%= category.name %></h2>
           <div class="checkbox form-inline ingredient_checkboxes"><%= f.input :component_ids, collection: category.components, as: :check_boxes %></div>
         </div>
       </div>
     <% end %>
-  <%= f.button :submit, "That's the spirit!" %>
+    <div class="col-md-12 center">
+      <%= f.button :submit, "That's the spirit!", class: "btn-lg" %>
+      </div>
   <% end %>
 </div>
-
