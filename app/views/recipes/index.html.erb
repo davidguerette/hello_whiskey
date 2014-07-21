@@ -3,7 +3,28 @@
 <% end %>
 <ul class="list-unstyled">
   <% @recipes.each do |recipe| %>
-  <li><%= link_to recipe.name, recipe_path(recipe) %></li>
+
+  <div class="col-md-12 recipe-card opacity">
+    <div class="row center"><h3><%= recipe.name %></h3><hr /></div>
+    <div class="row">
+      <div class="col-md-4">
+        <h4 class="recipe-card-headers">Ingredients</h4>
+        <ul>
+          <% recipe.ingredients.each do |ingredient| %>
+            <li><%= ingredient.component.name %></li>
+          <% end %>
+        </ul>
+      </div>
+      <div class="col-md-8">
+        <h4 class="recipe-card-headers">Directions</h4>
+        <%= recipe.directions %>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- <li><%= link_to recipe.name, recipe_path(recipe) %></li> -->
   <% end %>
 </ul>
 
