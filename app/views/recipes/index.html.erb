@@ -5,10 +5,13 @@
 <% end %>
 <ul class="list-unstyled">
   <% @recipes.each do |recipe| %>
-
   <div class="col-md-12 recipe-card opacity clearfix">
-
     <div class="row center"><h3><%= recipe.name %></h3><hr /></div>
+    <% if user_signed_in? %>
+        <% if !current_user.has_favorited?(recipe) %>
+          <%= link_to 'Add to favorites', recipe_favorites_path(recipe), method: :post  %>
+        <% end %>
+      <% end %>
     <div class="row">
       <div class="col-md-4">
         <h4 class="recipe-card-headers">Ingredients</h4>
@@ -22,12 +25,8 @@
         <h4 class="recipe-card-headers">Directions</h4>
         <p><%= recipe.directions %></p>
       </div>
-
     </div>
-
   </div>
-
-  <!-- <li><%= link_to recipe.name, recipe_path(recipe) %></li> -->
   <% end %>
 </ul>
 
@@ -38,4 +37,3 @@
     </div>
   </div>
 <% end %>
-

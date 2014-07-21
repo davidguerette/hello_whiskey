@@ -1,23 +1,17 @@
-<table>
-  <thead>
-    <th><%= @recipe.name %></th>
-  </thead>
-  <tbody>
-    <tr>
-      <td><%= @recipe.directions %></td>
-      <td>Ingredients<br /><br />
+<div class="col-md-12 recipe-card opacity clearfix">
+  <div class="row center"><h3><%= @recipe.name %></h3><hr /></div>
+  <div class="row">
+    <div class="col-md-4">
+      <h4 class="recipe-card-headers">Ingredients</h4>
+      <ul>
         <% @recipe.ingredients.each do |ingredient| %>
-          <%= ingredient.component.name %>
-          (<%= ingredient.component.category.name %>)<br />
+          <li><%= ingredient.component.name %></li>
         <% end %>
-      </td>
-      <% if user_signed_in? %>
-        <% if !current_user.has_favorited?(@recipe) %>
-          <td>
-            <%= link_to 'Add to favorites', recipe_favorites_path(@recipe), method: :post  %>
-          </td>
-        <% end %>
-      <% end %>
-    </tr>
-  </tbody>
-</table>
+      </ul>
+    </div>
+    <div class="col-md-8 pull-right">
+      <h4 class="recipe-card-headers">Directions</h4>
+      <p><%= @recipe.directions %></p>
+    </div>
+  </div>
+</div>
