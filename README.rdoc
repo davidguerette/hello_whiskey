@@ -16,4 +16,4 @@ Future features
 
 Data model below:
 
-![hello_whiskey_er_diagram](https://cloud.githubusercontent.com/assets/3588068/3651260/8e2800be-1125-11e4-9bb4-a93a02244ad1.jpg)
+![er_diagram](https://cloud.githubusercontent.com/assets/3588068/3651260/8e2800be-1125-11e4-9bb4-a93a02244ad1.jpg)
