@@ -12,7 +12,7 @@ class RecipesController < ApplicationController
         render :search
       end
     else
-      @recipes = Recipe.all.order(name: :asc)
+      @recipes = Recipe.limit(5).all.order(name: :asc).page(params[:page])
     end
   end
 
