@@ -3,9 +3,9 @@
   <p>Sorry, but fine drinks begin with fine ingredients. Please enter more ingredients and try again!</p>
   </div>
 <% end %>
-<ul class="list-unstyled">
+<!-- <ul class="list-unstyled"> -->
   <% @recipes.each do |recipe| %>
-  <div class="col-md-12 recipe-card opacity clearfix">
+  <div class="col-md-10 recipe-card opacity clearfix">
     <div class="row center"><h3><%= recipe.name %></h3><hr /></div>
     <% if user_signed_in? %>
         <% if !current_user.has_favorited?(recipe) %>
@@ -17,7 +17,7 @@
         <h4 class="recipe-card-headers">Ingredients</h4>
         <ul>
           <% recipe.ingredients.each do |ingredient| %>
-            <li><%= ingredient.component.name %></li>
+            <li><%= ingredient.quantity%> <%= ingredient.unit %> <%= ingredient.component.name %></li>
           <% end %>
         </ul>
       </div>
@@ -28,7 +28,7 @@
     </div>
   </div>
   <% end %>
-</ul>
+<!-- </ul> -->
 
 <% if !params[:search] %>
   <div class="row center">

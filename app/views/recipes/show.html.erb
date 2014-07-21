@@ -5,11 +5,11 @@
       <h4 class="recipe-card-headers">Ingredients</h4>
       <ul>
         <% @recipe.ingredients.each do |ingredient| %>
-          <li><%= ingredient.component.name %></li>
+          <li><%= ingredient.quantity%> <%= ingredient.unit %> <%= ingredient.component.name %></li>
         <% end %>
       </ul>
     </div>
-    <div class="col-md-8 pull-right">
+    <div class="col-md-8">
       <h4 class="recipe-card-headers">Directions</h4>
       <p><%= @recipe.directions %></p>
     </div>
