@@ -5,8 +5,7 @@ class RecipesController < ApplicationController
       component_ids = params[:search][:component_ids].reject(&:blank?).map(&:to_i)
       components = Component.find(component_ids)
       recipes_search = RecipeSearch.new(components)
-      @recipes = recipes_search.search
-
+      @recipes = Kaminari.paginate_array(recipes_search.search).page(params[:page])
 
       if @recipes.empty?
         flash.now[:notice] = "Sorry, but fine drinks begin with fine ingredients. Please enter more ingredients and try again!"
