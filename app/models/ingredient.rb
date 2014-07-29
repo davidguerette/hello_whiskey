@@ -8,35 +8,26 @@ class Ingredient < ActiveRecord::Base
 
   validates :component, presence: true
 
-  # quantity: if quantity % (1) == 0
-  #             quantity.to_i
-  #           else
-  #             quantity.to_r
-  #           end
-
-
   def display_quantity
-    if self.quantity % 1 == 0
-      quantity.to_i
-    else
-      if self.quantity > 1
-        remainder = (quantity % 1)
-        integer = (quantity - remainder).to_i
-        "#{integer} #{remainder.to_r}"
+    if self.quantity
+      if self.quantity % 1 == 0
+        quantity.to_i
       else
-        quantity.to_r
+        if self.quantity > 1
+          remainder = (quantity % 1)
+          integer = (quantity - remainder).to_i
+          "#{integer} #{remainder.to_r}"
+        else self.quantity < 1
+          quantity.to_r
+        end
       end
     end
-end
+  end
 
-
-  #unit
-
-
-  #citrus:
-
-
-
+  #citrus ingredient display:
+  # 1 twist orange => 1 orange twist
+  # juice
+  #
 
   def citrus_liquid_measure?
     if self.component.category.name == 'citrus' && LIQUID_MEASURE_UNITS.include?(self.unit)
