@@ -16,7 +16,10 @@
         <h4 class="recipe-card-headers">Ingredients</h4>
         <ul>
           <% recipe.ingredients.each do |ingredient| %>
-            <li><%= ingredient.quantity%> <%= ingredient.unit %> <%= ingredient.component.name %></li>
+            <li><%= ingredient.quantity%> <%= ingredient.unit %> <%= ingredient.component.name %>
+              <% if ingredient.citrus_liquid_measure? %>
+                juice
+              <% end %></li>
           <% end %>
         </ul>
       </div>
