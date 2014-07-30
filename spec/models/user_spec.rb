@@ -12,8 +12,8 @@ RSpec.describe User, :type => :model do
 
   it 'has a matching password confirmation' do
     user = FactoryGirl.create(:user)
+    user.password_confirmation = 'wrongpassword'
 
-    user = User.new
     expect(user).to_not be_valid
     expect(user.errors[:password_confirmation]).to_not be_blank
   end

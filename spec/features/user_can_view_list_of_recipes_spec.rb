@@ -28,7 +28,6 @@ feature 'user can view a list of cocktail recipes', %Q{
 
     visit root_path
     click_link 'Browse'
-    click_link recipe.name
 
     expect(page).to have_content(recipe.name)
     expect(page).to have_content(recipe.directions)
