@@ -29,12 +29,18 @@ feature 'user can save and view their favorite recipes', %Q{
 
   scenario 'user sees their favorite recipes when they log in' do
     user = FactoryGirl.create(:user)
-    recipe = user.favorites.first
+    recipe = FactoryGirl.create(:recipe_with_ingredients)
 
     sign_in_as(user)
-    click_link 'Browse'
-
     expect(page).to have_content('Welcome back!')
-    # expect(page).to have_content(recipe.name)
+
+    click_link 'Browse'
+    click_link 'Add to favorites'
+    click_link 'Sign Out'
+
+    sign_in_as(user)
+    click_link 'Your Favorites'
+
+    expect(page).to have_content(recipe.name)
   end
 end
