@@ -21,9 +21,8 @@ feature 'user can save and view their favorite recipes', %Q{
 
     sign_in_as(user)
     click_link 'Browse'
-    click_link recipe.name
     click_link 'Add to favorites'
-    click_link 'Favorites'
+    click_link 'Your Favorites'
 
     expect(page).to have_content(recipe.name)
   end
