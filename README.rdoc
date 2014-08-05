@@ -10,5 +10,6 @@ Future features - (see issues)
 * Additional RSpec test coverage
 * User ability to decide if garnishes are optional
 * Improved user interface for ingredient entry
-* Improved logic to improve reabability of citrus ingredients (most are currently displayed as oz)
+* More semantic display of citrus ingredients
 * Improved layout responsiveness
+* Additional recipes
