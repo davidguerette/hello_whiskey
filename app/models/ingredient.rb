@@ -24,10 +24,13 @@ class Ingredient < ActiveRecord::Base
     end
   end
 
-  #citrus ingredient display:
-  # 1 twist orange => 1 orange twist
-  # juice
-  #
+  def citrus?
+    if self.component.category.name == 'citrus' && !LIQUID_MEASURE_UNITS.include?(self.unit)
+      true
+    else
+      false
+    end
+  end
 
   def citrus_liquid_measure?
     if self.component.category.name == 'citrus' && LIQUID_MEASURE_UNITS.include?(self.unit)

@@ -16,10 +16,17 @@
         <h4 class="recipe-card-headers">Ingredients</h4>
         <ul>
           <% recipe.ingredients.each do |ingredient| %>
-            <li><%= ingredient.display_quantity %> <%= ingredient.unit %> <%= ingredient.component.name %>
-              <% if ingredient.citrus_liquid_measure? %>
-                juice
-              <% end %></li>
+            <li>
+              <% if ingredient.component.category.name == 'citrus' %>
+                <% if ingredient.citrus_liquid_measure? %>
+                  <%= ingredient.display_quantity %> <%= ingredient.unit %> <%= ingredient.component.name %> juice
+                <% elsif ingredient.citrus? %>
+                  <%= ingredient.display_quantity %> <%= ingredient.component.name %> <%= ingredient.unit %>
+                <% end %>
+              <% else %>
+                <%= ingredient.display_quantity %> <%= ingredient.unit %> <%= ingredient.component.name %>
+              <% end %>
+            </li>
           <% end %>
         </ul>
       </div>
