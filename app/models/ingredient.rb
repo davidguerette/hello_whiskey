@@ -39,4 +39,9 @@ class Ingredient < ActiveRecord::Base
       false
     end
   end
+
+  #citrus zest if category name is 'citrus' and the unit and 'spiral'
+  #desired format: '1 spiral of lemon zest'
+  # quantity - unit - 'of' - category name - 'zest'
+
 end
