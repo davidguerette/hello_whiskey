@@ -24,8 +24,16 @@ class Ingredient < ActiveRecord::Base
     end
   end
 
-  def citrus?
-    if self.component.category.name == 'citrus' && !LIQUID_MEASURE_UNITS.include?(self.unit)
+  def citrus_ingredient?
+    if self.component.category.name == 'citrus'
+      true
+    else
+      false
+    end
+  end
+
+  def citrus_zest?
+    if self.component.category.name == 'citrus' && self.unit == 'spiral'
       true
     else
       false
@@ -40,8 +48,11 @@ class Ingredient < ActiveRecord::Base
     end
   end
 
-  #citrus zest if category name is 'citrus' and the unit and 'spiral'
-  #desired format: '1 spiral of lemon zest'
-  # quantity - unit - 'of' - category name - 'zest'
-
+  def citrus_piece?
+    if self.component.category.name == 'citrus' && !LIQUID_MEASURE_UNITS.include?(self.unit)
+      true
+    else
+      false
+    end
+  end
 end

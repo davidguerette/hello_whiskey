@@ -17,10 +17,12 @@
         <ul>
           <% recipe.ingredients.each do |ingredient| %>
             <li>
-              <% if ingredient.component.category.name == 'citrus' %>
+              <% if ingredient.citrus_ingredient? %>
                 <% if ingredient.citrus_liquid_measure? %>
                   <%= ingredient.display_quantity %> <%= ingredient.unit %> <%= ingredient.component.name %> juice
-                <% elsif ingredient.citrus? %>
+                <% elsif ingredient.citrus_zest? %>
+                  <%= ingredient.display_quantity %> <%= ingredient.unit %> of <%= ingredient.component.name %> zest
+                <% elsif ingredient.citrus_piece? %>
                   <%= ingredient.display_quantity %> <%= ingredient.component.name %> <%= ingredient.unit %>
                 <% end %>
               <% else %>
