@@ -33,7 +33,7 @@ class Ingredient < ActiveRecord::Base
   end
 
   def citrus_zest?
-    if self.component.category.name == 'citrus' && self.unit == 'spiral'
+    if self.citrus_ingredient? && self.unit == 'spiral'
       true
     else
       false
@@ -41,7 +41,7 @@ class Ingredient < ActiveRecord::Base
   end
 
   def citrus_liquid_measure?
-    if self.component.category.name == 'citrus' && LIQUID_MEASURE_UNITS.include?(self.unit)
+    if self.citrus_ingredient? && LIQUID_MEASURE_UNITS.include?(self.unit)
       true
     else
       false
@@ -49,7 +49,7 @@ class Ingredient < ActiveRecord::Base
   end
 
   def citrus_piece?
-    if self.component.category.name == 'citrus' && !LIQUID_MEASURE_UNITS.include?(self.unit)
+    if self.citrus_ingredient? && !LIQUID_MEASURE_UNITS.include?(self.unit) && self.unit != 'spiral'
       true
     else
       false
