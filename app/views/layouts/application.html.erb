@@ -29,7 +29,6 @@
         </ul>
       </div>
     </div>
-    <div class="col-md-12 center"><%= notice %><%= alert %></div>
   </div>
 
   <% if current_page?(root_path) %>
@@ -37,6 +36,9 @@
   <% end %>
 
   <div class="container-fluid">
+    <% if @alert == nil || @notice == nil %>
+      <div class="col-md-12 center alert-container"><%= notice %><%= alert %></div>
+    <% end %>
     <%= yield %>
   </div>
 
